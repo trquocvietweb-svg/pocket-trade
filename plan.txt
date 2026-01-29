@@ -1,0 +1,134 @@
+================================================================================
+POKEMON TCG POCKET TRADE PLATFORM - DATABASE SCHEMA
+================================================================================
+Nguyên tắc: KISS, YAGNI, DRY
+Tổng: 14 bảng
+
+================================================================================
+CORE TABLES (14 bảng)
+================================================================================
+
+1. Card
+    + id 
+    + name
+    + rarity (string): ◆, ◆◆, ◆◆◆, ◆◆◆◆, ★, ★★, ★★★, ♢, Shiny Rare, Shiny Super Rare
+    + supertype (string): pokemon, trainer
+    + subtype (string): Basic, Stage 1, Stage 2, ex, Item, Supporter, Tool
+    + type (string): Grass, Fire, Water, Lightning, Psychic, Fighting, Darkness, Metal, Dragon, Colorless
+    + pack_id (string): FK → Pack
+    + card_number (string): "001/100"
+    + image_url (string)
+
+2. Pack
+    + id 
+    + name 
+    + image_url (string)
+    + set_id (string): FK → Set
+
+3. Set
+    + id 
+    + name 
+    + image_url (string)
+    + set_code (string): Mã set
+    + series (string): A series, B series...
+
+4. Admin (cho /admin)
+    + id 
+    + username
+    + email
+    + password
+
+5. Trader
+    + id 
+    + name
+    + email
+    + password
+    + avatar_url (string)
+    + legit_point (number): default 0
+    + friend_code (string): ID trong game Pokemon TCG Pocket để kết bạn
+    
+    [COMPUTED - không lưu DB, tính từ legit_point]:
+    - Rank: <100 = Sắt, 100-200 = Đồng, 201-500 = Bạc, 501-1000 = Vàng, >1000 = Kim Cương
+
+6. Trade-post
+    + id
+    + trader_id (string): FK → Trader
+    + status (string): active, expired, cancelled, matched
+    + expires_at (timestamp): Thời điểm hết hạn (thay vì time_remain)
+    + is_hidden (boolean): default false - ẩn khi đã match
+    + created_at (timestamp)
+
+7. Trade-request
+    + id
+    + trade_post_id (string): FK → Trade-post
+    + requester_id (string): FK → Trader
+    + message (string): Lời nhắn kèm theo
+    + status (string): pending, accepted, declined
+    + created_at (timestamp)
+
+8. Trade-post-Card (Pivot: Trade-post ↔ Card)
+    + id
+    + trade_post_id (string): FK → Trade-post
+    + card_id (string): FK → Card
+    + type (string): "have" | "want" (card mình có / card mình cần)
+
+9. Chat
+    + id
+    + trade_post_id (string): FK → Trade-post
+    + trader_host_id (string): FK → Trader (chủ post)
+    + trader_guest_id (string): FK → Trader (người gửi request)
+    + created_at (timestamp)
+
+10. Message
+    + id
+    + chat_id (string): FK → Chat
+    + sender_id (string): FK → Trader
+    + content (string): Text hoặc image URL
+    + content_type (string): "text" | "image"
+    + is_read (boolean): default false
+    + created_at (timestamp)
+    
+    [COMPUTED - receiver_id không cần lưu, suy ra từ chat participants]
+
+11. Trader-Card (Lịch sử trade của Trader)
+    + id
+    + trader_id (string): FK → Trader
+    + card_id (string): FK → Card
+    + type (string): "received" | "given" (nhận được / đã cho đi)
+    + quantity (integer): Số lượng
+    + trade_post_id (string): FK → Trade-post (trade nào)
+    + created_at (timestamp)
+
+12. Setting (Cấu hình website - chỉ 1 record)
+    + id
+    + site_name (string)
+    + logo (string): URL logo
+    + favicon (string): URL favicon
+    + seo_title (string)
+    + seo_description (string)
+    + contact_email (string)
+    + contact_phone (string)
+    + limit_trade_post_per_trader (integer): default 5
+    + limit_card_per_post (integer): default 10
+    + trade_post_duration_hours (integer): default 48
+
+13. Event (Sự kiện/Banner)
+    + id
+    + name
+    + content (string): Nội dung HTML
+    + image_url (string)
+    + start_date (timestamp)
+    + end_date (timestamp)
+    + is_active (boolean): default false
+    + created_at (timestamp)
+    
+    [NOTE: Chỉ 1 event được is_active = true tại 1 thời điểm]
+
+14. Visitor (Thống kê truy cập - lưu lâu dài thay Vercel Analytics)
+    + id
+    + ip_address (string)
+    + user_agent (string)
+    + page_url (string): Trang được truy cập
+    + referrer (string): Nguồn truy cập
+    + visited_at (timestamp)
+

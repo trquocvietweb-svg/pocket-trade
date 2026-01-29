@@ -1,0 +1,4232 @@
+{
+  "id": "A2b",
+  "name": "Shining Revelry",
+  "logo": "https://assets.tcgdex.net/en/tcgp/A2b/logo",
+  "symbol": "https://assets.tcgdex.net/univ/tcgp/A2b/symbol",
+  "cardCount": {
+    "firstEd": 0,
+    "holo": 0,
+    "normal": 0,
+    "official": 72,
+    "reverse": 0,
+    "total": 111
+  },
+  "boosters": [
+    {
+      "id": "boo_A2b-shining",
+      "name": "Shining"
+    }
+  ],
+  "cards": [
+    {
+      "id": "A2b-001",
+      "localId": "001",
+      "name": "Weedle",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/001",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Multiply",
+          "effect": "Put 1 random Weedle from your deck onto your Bench."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Akira Komayama",
+      "description": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-002",
+      "localId": "002",
+      "name": "Kakuna",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/002",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Weedle",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "String Shot",
+          "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Yuka Morii",
+      "description": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-003",
+      "localId": "003",
+      "name": "Beedrill ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/003",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Kakuna",
+      "rarity": "Four Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Crushing Spear",
+          "effect": "Discard a random Energy from your opponent's Active Pokémon.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-004",
+      "localId": "004",
+      "name": "Pinsir",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/004",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Guillotine Rush",
+          "effect": "Flip a coin until you get tails. This attack does 40 more damage for each heads.",
+          "damage": "50+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Satoshi Shirai",
+      "description": "These Pokémon judge one another based on pincers. Thicker, more impressive pincers make for more popularity with the opposite gender.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-005",
+      "localId": "005",
+      "name": "Sprigatito",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/005",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Cry for Help",
+          "effect": "Put 1 random {G} Pokémon from your deck into your hand."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "mashu",
+      "description": "Its fluffy fur is similar in composition to plants. This Pokémon frequently washes its face to keep it from drying out.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-006",
+      "localId": "006",
+      "name": "Floragato",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/006",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Sprigatito",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Slash",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "mashu",
+      "description": "Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-007",
+      "localId": "007",
+      "name": "Meowscarada",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/007",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Floragato",
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Fighting Claws",
+          "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
+          "damage": "60+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "mashu",
+      "description": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-008",
+      "localId": "008",
+      "name": "Charmander",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/008",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Combustion",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Megumi Mizutani",
+      "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-009",
+      "localId": "009",
+      "name": "Charmeleon",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/009",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Charmander",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "name": "Combustion",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "kodama",
+      "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-010",
+      "localId": "010",
+      "name": "Charizard ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/010",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 180,
+      "evolveFrom": "Charmeleon",
+      "rarity": "Four Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Stoke",
+          "effect": "Take 3 {R} Energy from your Energy Zone and attach it to this Pokémon."
+        },
+        {
+          "cost": [
+            "Fire",
+            "Fire",
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Steam Artillery",
+          "damage": 150
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-011",
+      "localId": "011",
+      "name": "Magmar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/011",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Flare",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Miki Tanaka",
+      "description": "Magmar dispatches its prey with fire. But it regrets this habit once it realizes that it has burned its intended prey to a charred crisp.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-012",
+      "localId": "012",
+      "name": "Magmortar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/012",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Magmar",
+      "rarity": "Three Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Fire",
+            "Colorless"
+          ],
+          "name": "Smoke Bomb",
+          "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
+          "damage": 70
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Miki Tanaka",
+      "description": "When Magmortar inhales deeply, the fire burning in its belly intensifies, rising in temperature to over 3,600 degrees Fahrenheit.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-013",
+      "localId": "013",
+      "name": "Paldean Tauros",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/013",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 110,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Blaze Tackle",
+          "effect": "This Pokémon also does 10 damage to itself.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Minahamu",
+      "description": "When heated by fire energy, its horns can get hotter than 1,800 degrees Fahrenheit. Those gored by them will suffer both wounds and burns.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-014",
+      "localId": "014",
+      "name": "Tentacool",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/014",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Rain Splash",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shibuzoh.",
+      "description": "Tentacool is not a particularly strong swimmer. It drifts across the surface of shallow seas as it searches for prey.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-015",
+      "localId": "015",
+      "name": "Tentacruel",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/015",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Tentacool",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Wave Splash",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "match",
+      "description": "When the red orbs on Tentacruel's head glow brightly, watch out. The Pokémon is about to fire off a burst of ultrasonic waves.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-016",
+      "localId": "016",
+      "name": "Buizel",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/016",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Water Gun",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "sui",
+      "description": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-017",
+      "localId": "017",
+      "name": "Floatzel",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/017",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Buizel",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Water Arrow",
+          "effect": "This attack does 30 damage to 1 of your opponent's Pokémon."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kouki Saitou",
+      "description": "With its flotation sac inflated, it can carry people on its back. It deflates the sac before it dives.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-018",
+      "localId": "018",
+      "name": "Wiglett",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/018",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Spring Out",
+          "effect": "1 of your opponent's Pokémon is chosen at random. Do 30 damage to it."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "miki kudo",
+      "description": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-019",
+      "localId": "019",
+      "name": "Wugtrio ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/019",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Wiglett",
+      "rarity": "Four Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "name": "Pop Out Throughout",
+          "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Tsuji",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-020",
+      "localId": "020",
+      "name": "Dondozo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/020",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Ocean Cyclone",
+          "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tomowaka",
+      "description": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-021",
+      "localId": "021",
+      "name": "Tatsugiri",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/021",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Rain Splash",
+          "damage": 20
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Retreat Directive",
+          "effect": "Your Active Dondozo has no Retreat Cost."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tomowaka",
+      "description": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-022",
+      "localId": "022",
+      "name": "Pikachu ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/022",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Four Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Thunderbolt",
+          "effect": "Discard all Energy from this Pokémon.",
+          "damage": 150
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-023",
+      "localId": "023",
+      "name": "Voltorb",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/023",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Lightning Ball",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Masakazu Fukuda",
+      "description": "It rolls to move. If the ground is uneven, a sudden jolt from hitting a bump can cause it to explode.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-024",
+      "localId": "024",
+      "name": "Electrode",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/024",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Voltorb",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Tumbling Attack",
+          "effect": "Flip a coin. If heads, this attack does 30 more damage.",
+          "damage": "50+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shigenori Negishi",
+      "description": "The more energy it charges up, the faster it gets. But this also makes it more likely to explode.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-025",
+      "localId": "025",
+      "name": "Pachirisu",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/025",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Plasma",
+          "effect": "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched  Pokémon.",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "imoniii",
+      "description": "It's one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-026",
+      "localId": "026",
+      "name": "Pawmi",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/026",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Punch",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Saboteri",
+      "description": "It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-027",
+      "localId": "027",
+      "name": "Pawmo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/027",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Pawmi",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Punch",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Saboteri",
+      "description": "When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-028",
+      "localId": "028",
+      "name": "Pawmot",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/028",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Pawmo",
+      "rarity": "Three Diamond",
+      "retreat": 0,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Electric Punch",
+          "damage": 70
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Counterattack",
+          "effect": "If this Pokémon is in the Active Spot and is damaged by an attack from your opponent's Pokémon, do 20 damage to the Attacking Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Saboteri",
+      "description": "This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-029",
+      "localId": "029",
+      "name": "Abra",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/029",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic"
+          ],
+          "name": "Psyshot",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mousho",
+      "description": "This Pokémon uses its psychic powers while it sleeps. The contents of Abra's dreams affect the powers that the Pokémon wields.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-030",
+      "localId": "030",
+      "name": "Kadabra",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/030",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Abra",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic"
+          ],
+          "name": "Psyshot",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mousho",
+      "description": "Using its psychic power, Kadabra levitates as it sleeps. It uses its springy tail as a pillow.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-031",
+      "localId": "031",
+      "name": "Alakazam",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/031",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 130,
+      "evolveFrom": "Kadabra",
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "name": "Psychic Suppression",
+          "effect": "This attack also does 20 damage to each of your opponent's Benched Pokémon that has any Energy attached.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mousho",
+      "description": "It has an incredibly high level of intelligence. Some say that Alakazam remembers everything that ever happens to it, from birth till death.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-032",
+      "localId": "032",
+      "name": "Mr. Mime",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/032",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "name": "Juggling",
+          "effect": "Flip 4 coins. This attack does 20 damage for each heads.",
+          "damage": "20x"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Atsuko Nishida",
+      "description": "The broadness of its hands may be no coincidence—many scientists believe its palms became enlarged specifically for pantomiming.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-033",
+      "localId": "033",
+      "name": "Drifloon",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/033",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic"
+          ],
+          "name": "Ram",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "kodama",
+      "description": "It is whispered that any child who mistakes Drifloon for a balloon and holds on to it could wind up missing.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-034",
+      "localId": "034",
+      "name": "Drifblim",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/034",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Drifloon",
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic"
+          ],
+          "name": "Gust",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Hajime Kusajima",
+      "description": "It can generate and release gas within its body. That's how it can control the altitude of its drift.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-035",
+      "localId": "035",
+      "name": "Giratina ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/035",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": null,
+      "rarity": "Four Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "name": "Chaotic Impact",
+          "effect": "This Pokémon also does 20 damage to itself.",
+          "damage": 130
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Broken-Space Bellow",
+          "effect": "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Yamashita",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-036",
+      "localId": "036",
+      "name": "Gimmighoul",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/036",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Chest-ouflage",
+          "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "HYOGONOSUKE",
+      "description": "This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-037",
+      "localId": "037",
+      "name": "Machop",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/037",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Low Kick",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mina Nakai",
+      "description": "Its whole body is composed of muscles. Even though it's the size of a human child, it can hurl 100 grown-ups.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-038",
+      "localId": "038",
+      "name": "Machoke",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/038",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Machop",
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Pummel",
+          "effect": "Flip a coin. If heads, this attack does 30 more damage.",
+          "damage": "30+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kouki Saitou",
+      "description": "Its muscular body is so powerful, it must wear a power-save belt to be able to regulate its motions.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-039",
+      "localId": "039",
+      "name": "Machamp",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/039",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": "Machoke",
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Power Press",
+          "effect": "If this Pokémon has at least 2 extra {F} Energy attached, this attack does 50 more damage.",
+          "damage": "70+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kouki Saitou",
+      "description": "It quickly swings its four arms to rock its opponents with ceaseless punches and chops from all angles.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-040",
+      "localId": "040",
+      "name": "Hitmonlee",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/040",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Kick",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tomokazu Komiya",
+      "description": "This amazing Pokémon has an awesome sense of balance. It can kick in succession from any position.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-041",
+      "localId": "041",
+      "name": "Hitmonchan",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/041",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Magnum Punch",
+          "damage": 90
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tomokazu Komiya",
+      "description": "Its punches slice the air. They are launched at such high speed, even a slight graze could cause a burn.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-042",
+      "localId": "042",
+      "name": "Riolu",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/042",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Punch",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "You Iribi",
+      "description": "They communicate with one another using their auras. They are able to run all through the night.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-043",
+      "localId": "043",
+      "name": "Lucario ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/043",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": "Riolu",
+      "rarity": "Four Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Aura Sphere",
+          "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-044",
+      "localId": "044",
+      "name": "Flamigo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/044",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Double Kick",
+          "effect": "Flip 2 coins. This attack does 50 damage for each heads.",
+          "damage": "50x"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "REND",
+      "description": "This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-045",
+      "localId": "045",
+      "name": "Ekans",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/045",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Colorless"
+          ],
+          "name": "Ram",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Midori Harada",
+      "description": "By dislocating its jaw, it can swallow prey larger than itself. After a meal, it curls up and rests.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-046",
+      "localId": "046",
+      "name": "Arbok",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/046",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 110,
+      "evolveFrom": "Ekans",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Darkness",
+            "Colorless"
+          ],
+          "name": "Venomous Fang",
+          "effect": "Your opponent's Active Pokémon is now Poisoned.",
+          "damage": 70
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Midori Harada",
+      "description": "After stunning its opponents with the pattern on its stomach, it quickly wraps them up in its body and waits for them to stop moving.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-047",
+      "localId": "047",
+      "name": "Paldean Wooper",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/047",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Poison Jab",
+          "effect": "Your opponent's Active Pokémon is now Poisoned.",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mori Yuu",
+      "description": "After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-048",
+      "localId": "048",
+      "name": "Paldean Clodsire ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/048",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Paldean Wooper",
+      "rarity": "Four Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "name": "Venoshock",
+          "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+          "damage": "60+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Mochizuki",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-049",
+      "localId": "049",
+      "name": "Spiritomb",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/049",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Confuse Ray",
+          "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Confused.",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shin Nagasawa",
+      "description": "Its constant mischief and misdeeds resulted in it being bound to an Odd Keystone by a mysterious spell.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-050",
+      "localId": "050",
+      "name": "Shroodle",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/050",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Gnaw",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Krgc",
+      "description": "Though usually a mellow Pokémon, it will sink its sharp, poison-soaked front teeth into any that anger it, causing paralysis in the object of its ire.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-051",
+      "localId": "051",
+      "name": "Grafaiai",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/051",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Shroodle",
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "name": "Bite",
+          "damage": 40
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Poison Coating",
+          "effect": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Krgc",
+      "description": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-052",
+      "localId": "052",
+      "name": "Tinkatink",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/052",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Metal"
+          ],
+          "name": "Corkscrew Punch",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "miki kudo",
+      "description": "It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-053",
+      "localId": "053",
+      "name": "Tinkatuff",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/053",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Tinkatink",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal"
+          ],
+          "name": "Tenacious Hammer",
+          "effect": "Flip a coin. If heads, this attack does 30 more damage.",
+          "damage": "30+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "miki kudo",
+      "description": "This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-054",
+      "localId": "054",
+      "name": "Tinkaton ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/054",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Tinkatuff",
+      "rarity": "Four Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Terrific Thumping",
+          "effect": "Flip a coin. If heads, this attack does 80 more damage.",
+          "damage": "80+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Mochizuki",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-055",
+      "localId": "055",
+      "name": "Varoom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/055",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Metal"
+          ],
+          "name": "Headbutt",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-056",
+      "localId": "056",
+      "name": "Revavroom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/056",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 110,
+      "evolveFrom": "Varoom",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Spinning Drift",
+          "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+          "damage": 70
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-057",
+      "localId": "057",
+      "name": "Gholdengo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/057",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Gimmighoul",
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Scintillating Surfing",
+          "effect": "Flip a coin for each {M} Energy attached to this Pokémon. This attack does 50 damage for each heads.",
+          "damage": "50x"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "HYOGONOSUKE",
+      "description": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-058",
+      "localId": "058",
+      "name": "Rattata",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/058",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Tackle",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Eri Yamaki",
+      "description": "Its incisors grow continuously throughout its life. If its incisors get too long, this Pokémon becomes unable to eat, and it starves to death.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-059",
+      "localId": "059",
+      "name": "Raticate",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/059",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Rattata",
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Tackle",
+          "damage": 50
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kyoko Umemoto",
+      "description": "People say that it fled from its enemies by using its small webbed hind feet to swim from island to island in Alola.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-060",
+      "localId": "060",
+      "name": "Jigglypuff",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/060",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Rollout",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kanako Eo",
+      "description": "It hugely inflates its stomach and sings a mysterious melody. If you hear this melody, you'll become sleepy right away.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-061",
+      "localId": "061",
+      "name": "Wigglytuff",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/061",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Jigglypuff",
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Gentle Slap",
+          "damage": 50
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Comforting Song",
+          "effect": "Once during your turn, you may heal 20 damage from your Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "miki kudo",
+      "description": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-062",
+      "localId": "062",
+      "name": "Lickitung",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/062",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Rollout",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sumiyoshi Kizuki",
+      "description": "If this Pokémon's sticky saliva gets on you and you don't clean it off, an intense itch will set in. The itch won't go away, either.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-063",
+      "localId": "063",
+      "name": "Lickilicky",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/063",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 130,
+      "evolveFrom": "Lickitung",
+      "rarity": "One Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Rollout",
+          "damage": 70
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Suwama Chiaki",
+      "description": "Lickilicky's strange tongue can stretch to many times the length of its body. No one has figured out how Lickilicky's tongue can stretch so far.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-064",
+      "localId": "064",
+      "name": "Bidoof",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/064",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Headbutt",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sekio",
+      "description": "With nerves of steel, nothing can perturb it. It is more agile and active than it appears.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-065",
+      "localId": "065",
+      "name": "Bibarel ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/065",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Bidoof",
+      "rarity": "Four Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Carefree Press",
+          "effect": "Heal 30 damage from this Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-066",
+      "localId": "066",
+      "name": "Buneary",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/066",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Pound",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kagemaru Himeno",
+      "description": "If both of Buneary's ears are rolled up, something is wrong with its body or mind. It's a sure sign the Pokémon is in need of care.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-067",
+      "localId": "067",
+      "name": "Lopunny",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/067",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Buneary",
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Hopping Shot",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Minahamu",
+      "description": "Lopunny is constantly monitoring its surroundings. If danger approaches, this Pokémon responds with superdestructive kicks.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-068",
+      "localId": "068",
+      "name": "Cyclizar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/068",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Overacceleration",
+          "effect": "During your next turn, this Pokémon's Overacceleration attack does +20 damage.",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "HAGIYA Kaoru",
+      "description": "Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-069",
+      "localId": "069",
+      "name": "Iono",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/069",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "saino misaki",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-070",
+      "localId": "070",
+      "name": "Pokémon Center Lady",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/070",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Susumu Maeya",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Heal 30 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-071",
+      "localId": "071",
+      "name": "Red",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/071",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Teeziro",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-072",
+      "localId": "072",
+      "name": "Team Rocket Grunt",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/072",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "kantaro",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-073",
+      "localId": "073",
+      "name": "Meowscarada",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/073",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Floragato",
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Fighting Claws",
+          "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 70 more damage.",
+          "damage": "60+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "danciao",
+      "description": "This Pokémon uses the reflective fur lining its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-074",
+      "localId": "074",
+      "name": "Buizel",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/074",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Water Gun",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shimaris Yukichi",
+      "description": "It inflates its flotation sac, keeping its face above water in order to watch for prey movement.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-075",
+      "localId": "075",
+      "name": "Tatsugiri",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/075",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Rain Splash",
+          "damage": 20
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Retreat Directive",
+          "effect": "Your Active Dondozo has no Retreat Cost."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "cochi8i",
+      "description": "This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-076",
+      "localId": "076",
+      "name": "Grafaiai",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/076",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Shroodle",
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "name": "Bite",
+          "damage": 40
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Poison Coating",
+          "effect": "Once during your turn, you may flip a coin. If heads, your opponent's Active Pokémon is now Poisoned."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Teeziro",
+      "description": "The color of the poisonous saliva depends on what the Pokémon eats. Grafaiai covers its fingers in its saliva and draws patterns on trees in forests.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-077",
+      "localId": "077",
+      "name": "Gholdengo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/077",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Gimmighoul",
+      "rarity": "One Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Scintillating Surfing",
+          "effect": "Flip a coin for each {M} Energy attached to this Pokémon. This attack does 50 damage for each heads.",
+          "damage": "50x"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Jerky",
+      "description": "Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-078",
+      "localId": "078",
+      "name": "Wigglytuff",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/078",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Jigglypuff",
+      "rarity": "One Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Gentle Slap",
+          "damage": 50
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Comforting Song",
+          "effect": "Once during your turn, you may heal 20 damage from your Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "5ban Graphics",
+      "description": "It has a very fine fur. Take care not to make it angry, or it may inflate steadily and hit with a body slam.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-079",
+      "localId": "079",
+      "name": "Beedrill ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/079",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Kakuna",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Crushing Spear",
+          "effect": "Discard a random Energy from your opponent's Active Pokémon.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-080",
+      "localId": "080",
+      "name": "Charizard ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/080",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 180,
+      "evolveFrom": "Charmeleon",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Stoke",
+          "effect": "Take 3 {R} Energy from your Energy Zone and attach it to this Pokémon."
+        },
+        {
+          "cost": [
+            "Fire",
+            "Fire",
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Steam Artillery",
+          "damage": 150
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-081",
+      "localId": "081",
+      "name": "Wugtrio ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/081",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Wiglett",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "name": "Pop Out Throughout",
+          "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Tsuji",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-082",
+      "localId": "082",
+      "name": "Pikachu ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/082",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Thunderbolt",
+          "effect": "Discard all Energy from this Pokémon.",
+          "damage": 150
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-083",
+      "localId": "083",
+      "name": "Giratina ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/083",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "name": "Chaotic Impact",
+          "effect": "This Pokémon also does 20 damage to itself.",
+          "damage": 130
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Broken-Space Bellow",
+          "effect": "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Yamashita",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-084",
+      "localId": "084",
+      "name": "Lucario ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/084",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": "Riolu",
+      "rarity": "Two Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Aura Sphere",
+          "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-085",
+      "localId": "085",
+      "name": "Paldean Clodsire ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/085",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Paldean Wooper",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "name": "Venoshock",
+          "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-086",
+      "localId": "086",
+      "name": "Tinkaton ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/086",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Tinkatuff",
+      "rarity": "Two Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Terrific Thumping",
+          "effect": "Flip a coin. If heads, this attack does 80 more damage.",
+          "damage": "80+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-087",
+      "localId": "087",
+      "name": "Bibarel ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/087",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Bidoof",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Carefree Press",
+          "effect": "Heal 30 damage from this Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-088",
+      "localId": "088",
+      "name": "Iono",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/088",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "saino misaki",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Each player shuffles the cards in their hand into their deck, then draws that many cards.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-089",
+      "localId": "089",
+      "name": "Pokémon Center Lady",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/089",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Susumu Maeya",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Heal 30 damage from 1 of your Pokémon, and it recovers from all Special Conditions.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-090",
+      "localId": "090",
+      "name": "Red",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/090",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Teeziro",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "During this turn, attacks used by your Pokémon do +20 damage to your opponent's Active Pokémon ex.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-091",
+      "localId": "091",
+      "name": "Team Rocket Grunt",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/091",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "kantaro",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Flip a coin until you get tails. For each heads, discard a random Energy from your opponent's Active Pokémon.",
+      "energyType": null
+    },
+    {
+      "id": "A2b-092",
+      "localId": "092",
+      "name": "Pikachu ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/092",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Thunderbolt",
+          "effect": "Discard all Energy from this Pokémon.",
+          "damage": 150
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "You Iribi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-093",
+      "localId": "093",
+      "name": "Paldean Clodsire ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/093",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Paldean Wooper",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness",
+            "Darkness"
+          ],
+          "name": "Venoshock",
+          "effect": "If your opponent's Active Pokémon is Poisoned, this attack does 60 more damage.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "REND",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-094",
+      "localId": "094",
+      "name": "Tinkaton ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/094",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Tinkatuff",
+      "rarity": "Two Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Terrific Thumping",
+          "effect": "Flip a coin. If heads, this attack does 80 more damage.",
+          "damage": "80+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "kurumitsu",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-095",
+      "localId": "095",
+      "name": "Bibarel ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/095",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Bidoof",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Carefree Press",
+          "effect": "Heal 30 damage from this Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "USGMEN",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-096",
+      "localId": "096",
+      "name": "Giratina ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/096",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": null,
+      "rarity": "Three Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Psychic",
+            "Psychic",
+            "Colorless"
+          ],
+          "name": "Chaotic Impact",
+          "effect": "This Pokémon also does 20 damage to itself.",
+          "damage": 130
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Broken-Space Bellow",
+          "effect": "Once during your turn, you may take a {P} Energy from your Energy Zone and attach it to this Pokémon. If you use this Ability, your turn ends."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shinji Kanda",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-097",
+      "localId": "097",
+      "name": "Weedle",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/097",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Multiply",
+          "effect": "Put 1 random Weedle from your deck onto your Bench."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sanosuke Sakuma",
+      "description": "Often found in forests and grasslands. It has a sharp, toxic barb of around two inches on top of its head.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-098",
+      "localId": "098",
+      "name": "Kakuna",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/098",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Weedle",
+      "rarity": "One Shiny",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "String Shot",
+          "effect": "Flip a coin. If heads, your opponent's Active Pokémon is now Paralyzed.",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sanosuke Sakuma",
+      "description": "Almost incapable of moving, this Pokémon can only harden its shell to protect itself when it is in danger.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-099",
+      "localId": "099",
+      "name": "Charmander",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/099",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Combustion",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "It has a preference for hot things. When it rains, steam is said to spout from the tip of its tail.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-100",
+      "localId": "100",
+      "name": "Charmeleon",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/100",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Charmander",
+      "rarity": "One Shiny",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "name": "Combustion",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "It has a barbaric nature. In battle, it whips its fiery tail around and slashes away with sharp claws.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-101",
+      "localId": "101",
+      "name": "Wiglett",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/101",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Spring Out",
+          "effect": "1 of your opponent's Pokémon is chosen at random. Do 30 damage to it."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-102",
+      "localId": "102",
+      "name": "Dondozo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/102",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Ocean Cyclone",
+          "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "GOSSAN",
+      "description": "This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-103",
+      "localId": "103",
+      "name": "Pachirisu",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/103",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Plasma",
+          "effect": "Take a {L} Energy from your Energy Zone and attach it to 1 of your Benched  Pokémon.",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tomowaka",
+      "description": "It's one of the kinds of Pokémon with electric cheek pouches. It shoots charges from its tail.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-104",
+      "localId": "104",
+      "name": "Riolu",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/104",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Punch",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "GOSSAN",
+      "description": "They communicate with one another using their auras. They are able to run all through the night.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-105",
+      "localId": "105",
+      "name": "Varoom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/105",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Metal"
+          ],
+          "name": "Headbutt",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "nagimiso",
+      "description": "It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-106",
+      "localId": "106",
+      "name": "Revavroom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/106",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 110,
+      "evolveFrom": "Varoom",
+      "rarity": "One Shiny",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Spinning Drift",
+          "effect": "Flip a coin. If heads, during your opponent's next turn, prevent all damage from—and effects of—attacks done to this Pokémon.",
+          "damage": 70
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "nagimiso",
+      "description": "It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-107",
+      "localId": "107",
+      "name": "Beedrill ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/107",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Kakuna",
+      "rarity": "Two Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Crushing Spear",
+          "effect": "Discard a random Energy from your opponent's Active Pokémon.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-108",
+      "localId": "108",
+      "name": "Charizard ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/108",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 180,
+      "evolveFrom": "Charmeleon",
+      "rarity": "Two Shiny",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Stoke",
+          "effect": "Take 3 {R} Energy from your Energy Zone and attach it to this Pokémon."
+        },
+        {
+          "cost": [
+            "Fire",
+            "Fire",
+            "Fire",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Steam Artillery",
+          "damage": 150
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Igarashi",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-109",
+      "localId": "109",
+      "name": "Wugtrio ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/109",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Wiglett",
+      "rarity": "Two Shiny",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "name": "Pop Out Throughout",
+          "effect": "1 of your opponent's Pokémon is chosen at random 3 times. For each time a Pokémon was chosen, do 50 damage to it."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Tsuji",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-110",
+      "localId": "110",
+      "name": "Lucario ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/110",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": "Riolu",
+      "rarity": "Two Shiny",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Aura Sphere",
+          "effect": "This attack also does 30 damage to 1 of your opponent's Benched Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2b-111",
+      "localId": "111",
+      "name": "Poké Ball",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2b/111",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Crown",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Toyste Beach",
+      "description": "",
+      "trainerType": "Item",
+      "effect": "Put a random Basic Pokémon from your deck into your hand.",
+      "energyType": null
+    }
+  ]
+}

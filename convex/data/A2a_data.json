@@ -1,0 +1,3725 @@
+{
+  "id": "A2a",
+  "name": "Triumphant Light",
+  "logo": "https://assets.tcgdex.net/en/tcgp/A2a/logo",
+  "symbol": "https://assets.tcgdex.net/univ/tcgp/A2a/symbol",
+  "cardCount": {
+    "firstEd": 0,
+    "holo": 0,
+    "normal": 0,
+    "official": 75,
+    "reverse": 0,
+    "total": 96
+  },
+  "boosters": [
+    {
+      "id": "boo_A2a-arceus",
+      "name": "Arceus"
+    }
+  ],
+  "cards": [
+    {
+      "id": "A2a-001",
+      "localId": "001",
+      "name": "Heracross",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/001",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Single-Horn Throw",
+          "effect": "Flip 2 coins. If both of them are heads, this attack does 70 more damage.",
+          "damage": "50+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Satoshi Shirai",
+      "description": "It loves sweet nectar. To keep all the nectar to itself, it hurls rivals away with its prized horn.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-002",
+      "localId": "002",
+      "name": "Burmy",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/002",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Ram",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "miki kudo",
+      "description": "To shelter itself from cold, wintry winds, it covers\nitself with a cloak made of twigs and leaves.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-003",
+      "localId": "003",
+      "name": "Mothim",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/003",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Burmy",
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Gust",
+          "damage": 50
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "MAHOU",
+      "description": "It loves the honey of flowers and steals honey collected by Combee.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-004",
+      "localId": "004",
+      "name": "Combee",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/004",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Bug Bite",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Akira Komayama",
+      "description": "At night, Combee sleep in a group of about a hundred, packed closely together in a lump.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-005",
+      "localId": "005",
+      "name": "Vespiquen",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/005",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Combee",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass",
+            "Grass"
+          ],
+          "name": "Reckless Charge",
+          "effect": "This Pokémon also does 30 damage to itself.",
+          "damage": 120
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "kawayoo",
+      "description": "It houses its colony in cells in its body and releases various pheromones to make those grubs do its bidding.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-006",
+      "localId": "006",
+      "name": "Cherubi",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/006",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Leafage",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Atsuko Nishida",
+      "description": "It nimbly dashes about to avoid getting pecked by bird Pokémon that would love to make off with its small, nutrient-rich storage ball.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-007",
+      "localId": "007",
+      "name": "Cherrim",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/007",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Cherubi",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Worry Seed",
+          "effect": "Your opponent's Active Pokémon is now Confused.",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Midori Harada",
+      "description": "As a bud, it barely moves. It sits still, placidly waiting for sunlight to appear.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-008",
+      "localId": "008",
+      "name": "Cherrim",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/008",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Cherubi",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Grass"
+          ],
+          "name": "Leech Seed",
+          "effect": "Heal 20 damage from this Pokémon.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kagemaru Himeno",
+      "description": "After absorbing plenty of sunlight, Cherrim takes this form. It's full of energy while it's like this, and its liveliness will go on until sundown.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-009",
+      "localId": "009",
+      "name": "Carnivine",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/009",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass"
+          ],
+          "name": "Vine Whip",
+          "damage": 20
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Power Link",
+          "effect": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shiburingaru",
+      "description": "It attracts prey with its sweet-smelling saliva, then chomps down. It takes a whole day to eat prey.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-010",
+      "localId": "010",
+      "name": "Leafeon ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/010",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Eevee",
+      "rarity": "Four Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Solar Beam",
+          "damage": 70
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Forest Breath",
+          "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may take a {G} Energy from your Energy Zone and attach it to 1 of your {G} Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-011",
+      "localId": "011",
+      "name": "Houndour",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/011",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fire"
+          ],
+          "name": "Flare",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kouki Saitou",
+      "description": "It is smart enough to hunt in packs. It uses a variety of cries for communicating with others.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-012",
+      "localId": "012",
+      "name": "Houndoom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/012",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Houndour",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Colorless"
+          ],
+          "name": "Corner",
+          "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Hajime Kusajima",
+      "description": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-013",
+      "localId": "013",
+      "name": "Heatran",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/013",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 110,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Fire"
+          ],
+          "name": "Ragin' Mad Strike",
+          "effect": "If this Pokémon has damage on it, this attack does 40 more damage.",
+          "damage": "40+"
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Speed Link",
+          "effect": "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kazumasa Yasukuni",
+      "description": "It dwells in volcanic caves. It digs in with its cross-shaped feet to crawl on ceilings and walls.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-014",
+      "localId": "014",
+      "name": "Marill",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/014",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Water Gun",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tika Matsuno",
+      "description": "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-015",
+      "localId": "015",
+      "name": "Azumarill",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/015",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Marill",
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Colorless"
+          ],
+          "name": "Waterfall",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "miki kudo",
+      "description": "Its long ears are superb sensors. It can distinguish the movements of things in water and tell what they are.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-016",
+      "localId": "016",
+      "name": "Barboach",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/016",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Colorless"
+          ],
+          "name": "Mud-Slap",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "sui",
+      "description": "Its two whiskers provide a sensitive radar. Even in muddy waters, it can detect its prey's location.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-017",
+      "localId": "017",
+      "name": "Whiscash",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/017",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Barboach",
+      "rarity": "Two Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Thrash",
+          "effect": "Flip a coin. If heads, this attack does 60 more damage. If tails, this Pokémon also does 20 damage to itself.",
+          "damage": "80+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shinya Komatsu",
+      "description": "It is extremely protective of its territory. If any foe approaches, it attacks using vicious tremors.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-018",
+      "localId": "018",
+      "name": "Snorunt",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/018",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Icicle",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "sowsow",
+      "description": "It is said that several Snorunt gather under giant leaves and live together in harmony.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-019",
+      "localId": "019",
+      "name": "Froslass",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/019",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Snorunt",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Colorless"
+          ],
+          "name": "Blizzard",
+          "effect": "This attack also does 10 damage to each of your opponent's Benched Pokémon.",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mizue",
+      "description": "When it finds humans or Pokémon it likes, it freezes them and takes them to its chilly den, where they become decorations.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-020",
+      "localId": "020",
+      "name": "Snover",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/020",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Colorless"
+          ],
+          "name": "Corkscrew Punch",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "otumami",
+      "description": "During cold seasons, it migrates to the mountain's lower reaches. It returns to the snow-covered summit in the spring.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-021",
+      "localId": "021",
+      "name": "Abomasnow",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/021",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Snover",
+      "rarity": "Three Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "name": "Mega Punch",
+          "damage": 80
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Vigor Link",
+          "effect": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon cost 1 less {C} Energy."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "nagimiso",
+      "description": "It lives a quiet life on mountains that are perpetually covered in snow. It hides itself by whipping up blizzards.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-022",
+      "localId": "022",
+      "name": "Glaceon ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/022",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Eevee",
+      "rarity": "Four Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "name": "Freezing Wind",
+          "damage": 90
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Snowy Terrain",
+          "effect": "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-023",
+      "localId": "023",
+      "name": "Origin Forme Palkia",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/023",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Water"
+          ],
+          "name": "Zone Smash",
+          "effect": "Flip a coin. If heads, this attack does 60 more damage.",
+          "damage": "60+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "toriyufu",
+      "description": "It soars across the sky in a form that greatly resembles the creator of all things. Perhaps this imitation of appearance is Palkia's strategy for gaining Arceus's powers.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-024",
+      "localId": "024",
+      "name": "Phione",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/024",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water"
+          ],
+          "name": "Water Pulse",
+          "effect": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "AKIRA EGAWA",
+      "description": "When the water warms, they inflate the flotation sac on their heads and drift languidly on the sea in packs.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-025",
+      "localId": "025",
+      "name": "Pikachu",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/025",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Spark",
+          "effect": "This attack also does 10 damage to 1 of your opponent's Benched Pokémon.",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "MAHOU",
+      "description": "When it is angered, it immediately discharges the energy stored in the pouches in its cheeks.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-026",
+      "localId": "026",
+      "name": "Raichu",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/026",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Pikachu",
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning",
+            "Lightning"
+          ],
+          "name": "Spark",
+          "effect": "This attack also does 20 damage to 1 of your opponent's Benched Pokémon.",
+          "damage": 40
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Resilience Link",
+          "effect": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Nisota Niso",
+      "description": "Its tail discharges electricity into the ground, protecting it from getting shocked.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-027",
+      "localId": "027",
+      "name": "Electrike",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/027",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Zap Kick",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shin Nagasawa",
+      "description": "It stores static electricity in its fur for discharging. It gives off sparks if a storm approaches.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-028",
+      "localId": "028",
+      "name": "Manectric",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/028",
+      "boosters": [],
+      "types": [
+        "Lightning"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Electrike",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Lightning"
+          ],
+          "name": "Flash",
+          "effect": "During your opponent's next turn, if the Defending Pokémon tries to use an attack, your opponent flips a coin. If tails, that attack doesn't happen.",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "match",
+      "description": "It stimulates its own muscles with electricity, so it can move quickly. It eases its soreness with electricity, too, so it can recover quickly as well.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-029",
+      "localId": "029",
+      "name": "Clefairy",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/029",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Colorless"
+          ],
+          "name": "Smack",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "rika",
+      "description": "It is said that happiness will come to those who see a gathering of Clefairy dancing under a full moon.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-030",
+      "localId": "030",
+      "name": "Clefable",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/030",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Clefairy",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Moonblast",
+          "effect": "During your opponent's next turn, attacks used by the Defending Pokémon do −30 damage.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "sui",
+      "description": "A timid fairy Pokémon that is rarely seen, it will run and hide the moment it senses people.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-031",
+      "localId": "031",
+      "name": "Gastly",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/031",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Astonish",
+          "effect": "Flip a coin. If heads, your opponent reveals a random card from their hand and shuffles it into their deck."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Yuu Nishida",
+      "description": "It wraps its opponent in its gas-like body, slowly weakening its prey by poisoning it through the skin.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-032",
+      "localId": "032",
+      "name": "Haunter",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/032",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Gastly",
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "name": "Mumble",
+          "damage": 40
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Eri Yamaki",
+      "description": "It likes to lurk in the dark and tap shoulders with a gaseous hand. Its touch causes endless shuddering.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-033",
+      "localId": "033",
+      "name": "Gengar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/033",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Haunter",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Psychic",
+            "Psychic"
+          ],
+          "name": "Hypnoblast",
+          "effect": "Your opponent's Active Pokémon is now Asleep.",
+          "damage": 70
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Midori Harada",
+      "description": "To steal the life of its target, it slips into the prey's shadow and silently waits for an opportunity.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-034",
+      "localId": "034",
+      "name": "Unown",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/034",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Hidden Power",
+          "damage": 20
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "CHECK",
+          "effect": "Once during your turn, you may choose either player. Look at the top card of that player's deck."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tetsu Kayama",
+      "description": "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-035",
+      "localId": "035",
+      "name": "Rotom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/035",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Dash Attack",
+          "effect": "This attack does 20 damage to 1 of your opponent's Benched Pokémon."
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Speed Link",
+          "effect": "If you have Arceus or Arceus ex in play, this Pokémon has no Retreat Cost."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Anesaki Dynamic",
+      "description": "Its electricity-like body can enter some kinds of machines and take control in order to make mischief.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-036",
+      "localId": "036",
+      "name": "Sudowoodo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/036",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Fighting Headbutt",
+          "effect": "If your opponent's Active Pokémon is a Pokémon {ex}, this attack does 30 more damage.",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tomokazu Komiya",
+      "description": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-037",
+      "localId": "037",
+      "name": "Phanpy",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/037",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Rollout",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Asako Ito",
+      "description": "This Pokémon lives and nests on a riverbank. After playing in the mud, it won't be able to settle down unless it washes its body.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-038",
+      "localId": "038",
+      "name": "Donphan",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/038",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Phanpy",
+      "rarity": "Two Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Fighting"
+          ],
+          "name": "Rolling Spin",
+          "effect": "During your next turn, this Pokémon's Rolling Spin attack does +60 damage.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Shin Nagasawa",
+      "description": "Donphan is covered in tough hide, so even being hit by a car won't faze this Pokémon. However, it is extremely susceptible to rain.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-039",
+      "localId": "039",
+      "name": "Larvitar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/039",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Colorless"
+          ],
+          "name": "Corkscrew Punch",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Yukiko Baba",
+      "description": "Born deep underground, this Pokémon becomes a pupa after eating enough dirt to make a mountain.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-040",
+      "localId": "040",
+      "name": "Pupitar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/040",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Larvitar",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Speed Attack",
+          "damage": 50
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "match",
+      "description": "Its shell is as hard as bedrock, and it is also very strong. Its thrashing can topple a mountain.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-041",
+      "localId": "041",
+      "name": "Tyranitar",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/041",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Pupitar",
+      "rarity": "Three Diamond",
+      "retreat": 4,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "name": "Land Crush",
+          "damage": 130
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Power Link",
+          "effect": "If you have Arceus or Arceus ex in play, attacks used by this Pokémon do +30 damage to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "kawayoo",
+      "description": "Extremely strong, it can change the landscape. It is so insolent that it doesn't care about others.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-042",
+      "localId": "042",
+      "name": "Nosepass",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/042",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Tackle",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Satoshi Shirai",
+      "description": "It moves less than an inch a year, but when it's in a jam, it will spin and drill down into the ground in a split second.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-043",
+      "localId": "043",
+      "name": "Meditite",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/043",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Kick",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mina Nakai",
+      "description": "It never skips its daily yoga training. It heightens its inner strength through meditation.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-044",
+      "localId": "044",
+      "name": "Medicham",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/044",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Meditite",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Kick Shot",
+          "effect": "Flip a coin. If tails, this attack does nothing.",
+          "damage": 80
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Psychic",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Tetsu Kayama",
+      "description": "Through yoga training, it gained the psychic power to predict its foe's next move.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-045",
+      "localId": "045",
+      "name": "Gible",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/045",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Tackle",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kyoko Umemoto",
+      "description": "It skulks in caves, and when prey or an enemy passes by, it leaps out and chomps them. The force of its attack sometimes chips its teeth.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-046",
+      "localId": "046",
+      "name": "Gabite",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/046",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Gible",
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Sharp Scythe",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sumiyoshi Kizuki",
+      "description": "In rare cases, it molts and sheds its scales. Medicine containing its scales as an ingredient will make a weary body feel invigorated.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-047",
+      "localId": "047",
+      "name": "Garchomp ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/047",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Gabite",
+      "rarity": "Four Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Linear Attack",
+          "effect": "This attack does 50 damage to 1 of your opponent's Pokémon."
+        },
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "name": "Dragon Claw",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-048",
+      "localId": "048",
+      "name": "Zubat",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/048",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 50,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Bite",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sekio",
+      "description": "It emits ultrasonic waves from its mouth to check its surroundings. Even in tight caves, Zubat flies around with skill.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-049",
+      "localId": "049",
+      "name": "Golbat",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/049",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Zubat",
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Bite",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Kyoko Umemoto",
+      "description": "It loves to drink other creatures' blood. It's said that if it finds others of its kind going hungry, it sometimes shares the blood it's gathered.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-050",
+      "localId": "050",
+      "name": "Crobat",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/050",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 110,
+      "evolveFrom": "Golbat",
+      "rarity": "Three Diamond",
+      "retreat": 0,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Darkness Fang",
+          "damage": 50
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Cunning Link",
+          "effect": "Once during your turn, if you have Arceus or Arceus ex in play, you may do 30 damage to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "AKIRA EGAWA",
+      "description": "Both of its legs have turned into wings. Without a sound, Crobat flies swiftly toward its prey and sinks its fangs into the nape of its target's neck.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-051",
+      "localId": "051",
+      "name": "Croagunk",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/051",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Beat",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "SATOSHI NAKAI",
+      "description": "Inflating its poison sacs, it fills the area with an odd sound and hits flinching opponents with a poison jab.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-052",
+      "localId": "052",
+      "name": "Toxicroak",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/052",
+      "boosters": [],
+      "types": [
+        "Darkness"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Croagunk",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Darkness"
+          ],
+          "name": "Toxic",
+          "effect": "Your opponent's Active Pokémon is now Poisoned. Do 20 damage to this Pokémon instead of the usual amount for this Special Condition."
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "Swaying and dodging the attacks of its foes, it weaves its flexible body in close, then lunges out with its poisonous claws.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-053",
+      "localId": "053",
+      "name": "Magnemite",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/053",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Metal"
+          ],
+          "name": "Tackle",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "OKACHEKE",
+      "description": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-054",
+      "localId": "054",
+      "name": "Magneton",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/054",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 90,
+      "evolveFrom": "Magnemite",
+      "rarity": "One Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Rolling Attack",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Souichirou Gunjima",
+      "description": "Three Magnemite are linked by a strong magnetic force. Earaches will occur if you get too close.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-055",
+      "localId": "055",
+      "name": "Magnezone",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/055",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Magneton",
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Power Beam",
+          "damage": 80
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Resilience Link",
+          "effect": "If you have Arceus or Arceus ex in play, this Pokémon takes −30 damage from attacks."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "toriyufu",
+      "description": "As it zooms through the sky, this Pokémon seems to be receiving signals of unknown origin while transmitting signals of unknown purpose.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-056",
+      "localId": "056",
+      "name": "Mawile",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/056",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Iron Beam Breaker",
+          "effect": "If your opponent's Active Pokémon is a {M} Pokémon, this attack does 30 more damage.",
+          "damage": "20+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "tetsuya koizumi",
+      "description": "It uses its docile-looking face to lull foes into complacency, then bites with its huge, relentless jaws.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-057",
+      "localId": "057",
+      "name": "Probopass ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/057",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Nosepass",
+      "rarity": "Four Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Defensive Unit",
+          "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+          "damage": 90
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Tsuji",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-058",
+      "localId": "058",
+      "name": "Bronzor",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/058",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Ram",
+          "damage": 10
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Akira Komayama",
+      "description": "Ancient people believed that the pattern on Bronzor's back contained a mysterious power.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-059",
+      "localId": "059",
+      "name": "Bronzong",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/059",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": "Bronzor",
+      "rarity": "Two Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Psychic",
+          "effect": "This attack does 20 more damage for each Energy attached to your opponent's Active Pokémon.",
+          "damage": "50+"
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Naoki Saito",
+      "description": "In ages past, this Pokémon was revered as a bringer of rain. It was found buried in the ground.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-060",
+      "localId": "060",
+      "name": "Origin Forme Dialga",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/060",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Time Mash",
+          "effect": "Flip a coin. If tails, during your next turn, this Pokémon can't attack.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "akagi",
+      "description": "Radiant light caused Dialga to take on a form bearing a striking resemblance to the creator Pokémon. Dialga now wields such colossal strength that one must conclude this is its true form.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-061",
+      "localId": "061",
+      "name": "Giratina",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/061",
+      "boosters": [],
+      "types": [
+        "Dragon"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Psychic",
+            "Colorless"
+          ],
+          "name": "Crisis Dive",
+          "effect": "Discard 2 random Energy from this Pokémon.",
+          "damage": 120
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Shin Nagasawa",
+      "description": "This Pokémon is said to live in a world on the reverse side of ours, where common knowledge is distorted and strange.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-062",
+      "localId": "062",
+      "name": "Eevee",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/062",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Tail Whap",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Naoyo Kimura",
+      "description": "Its ability to evolve into many forms allows it to adapt smoothly and perfectly to any environment.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-063",
+      "localId": "063",
+      "name": "Snorlax",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/063",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 4,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Collapse",
+          "effect": "This Pokémon is now Asleep.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "burari",
+      "description": "It is not satisfied unless it eats over 880 pounds of food every day. When it is done eating, it goes promptly to sleep.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-064",
+      "localId": "064",
+      "name": "Hoothoot",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/064",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Peck",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Sumiyoshi Kizuki",
+      "description": "It always stands on one foot. It changes feet so fast, the movement can rarely be seen.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-065",
+      "localId": "065",
+      "name": "Noctowl",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/065",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Hoothoot",
+      "rarity": "Two Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Silent Wing",
+          "effect": "Your opponent reveals their hand.",
+          "damage": 50
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "DOM",
+      "description": "Its eyes are specially developed to enable it to see clearly even in murky darkness and minimal light.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-066",
+      "localId": "066",
+      "name": "Starly",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/066",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Glide",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Apios",
+      "description": "They flock around mountains and fields, chasing after bug Pokémon. Their singing is noisy and annoying.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-067",
+      "localId": "067",
+      "name": "Staravia",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/067",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": "Starly",
+      "rarity": "One Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Wing Attack",
+          "damage": 30
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Masakazu Fukuda",
+      "description": "Recognizing their own weakness, they always live in a group. When alone, a Staravia cries noisily.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-068",
+      "localId": "068",
+      "name": "Staraptor",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/068",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 150,
+      "evolveFrom": "Staravia",
+      "rarity": "Two Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Brave Bird",
+          "effect": "This Pokémon also does 20 damage to itself.",
+          "damage": 130
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Minahamu",
+      "description": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-069",
+      "localId": "069",
+      "name": "Shaymin",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/069",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Flap",
+          "damage": 30
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Sky Support",
+          "effect": "As long as this Pokémon is on your Bench, your Active Basic Pokémon's Retreat Cost is 1 less."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Mizue",
+      "description": "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-070",
+      "localId": "070",
+      "name": "Arceus",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/070",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 120,
+      "evolveFrom": null,
+      "rarity": "Three Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Power Blast",
+          "effect": "Discard a random Energy from this Pokémon.",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Nurikabe",
+      "description": "According to the legends of Sinnoh, this Pokémon emerged from an egg and shaped all there is in this world.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-071",
+      "localId": "071",
+      "name": "Arceus ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/071",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": null,
+      "rarity": "Four Diamond",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Ultimate Force",
+          "effect": "This attack does 20 more damage for each of your Benched Pokémon.",
+          "damage": "70+"
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Fabled Luster",
+          "effect": "This Pokémon can't be affected by any Special Conditions."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-072",
+      "localId": "072",
+      "name": "Irida",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/072",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Atsushi Furusawa",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Heal 40 damage from each of your Pokémon that has any {W} Energy attached.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-073",
+      "localId": "073",
+      "name": "Celestic Town Elder",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/073",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Yuu Nishida",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Put 1 random Basic Pokémon from your discard pile into your hand.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-074",
+      "localId": "074",
+      "name": "Barry",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/074",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Hideki Ishikawa",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "During this turn, attacks used by your Snorlax, Heracross, and Staraptor cost 2 less {C} Energy.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-075",
+      "localId": "075",
+      "name": "Adaman",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/075",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Diamond",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "akagi",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "During your opponent's next turn, all of your {M} Pokémon take −20 damage from attacks from your opponent's Pokémon.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-076",
+      "localId": "076",
+      "name": "Houndoom",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/076",
+      "boosters": [],
+      "types": [
+        "Fire"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 100,
+      "evolveFrom": "Houndour",
+      "rarity": "One Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fire",
+            "Colorless"
+          ],
+          "name": "Corner",
+          "effect": "During your opponent's next turn, the Defending Pokémon can't retreat.",
+          "damage": 60
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Water",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "matazo",
+      "description": "If you are burned by the flames it shoots from its mouth, the pain will never go away.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-077",
+      "localId": "077",
+      "name": "Marill",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/077",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water"
+          ],
+          "name": "Water Gun",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Taiga Kayama",
+      "description": "The fur on its body naturally repels water. It can stay dry even when it plays in the water.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-078",
+      "localId": "078",
+      "name": "Unown",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/078",
+      "boosters": [],
+      "types": [
+        "Psychic"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless"
+          ],
+          "name": "Hidden Power",
+          "damage": 20
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "CHECK",
+          "effect": "Once during your turn, you may choose either player. Look at the top card of that player's deck."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Darkness",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "IKEDA Saki",
+      "description": "Its flat, thin body is always stuck on walls. Its shape appears to have some meaning.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-079",
+      "localId": "079",
+      "name": "Sudowoodo",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/079",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 80,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Fighting Headbutt",
+          "effect": "If your opponent's Active Pokémon is a Pokémon ex, this attack does 30 more damage.",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Yuriko Akase",
+      "description": "Although it always pretends to be a tree, its composition appears more similar to rock than to vegetation.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-080",
+      "localId": "080",
+      "name": "Magnemite",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/080",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 60,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Metal"
+          ],
+          "name": "Tackle",
+          "damage": 20
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Yukihiro Tada",
+      "description": "The electromagnetic waves emitted by the units at the sides of its head expel antigravity, which allows it to float.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-081",
+      "localId": "081",
+      "name": "Shaymin",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/081",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 70,
+      "evolveFrom": null,
+      "rarity": "One Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Flap",
+          "damage": 30
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Sky Support",
+          "effect": "As long as this Pokémon is on your Bench, your Active Basic Pokémon's Retreat Cost is 1 less."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Lightning",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "MINAMINAMI Take",
+      "description": "It can dissolve toxins in the air to instantly transform ruined land into a lush field of flowers.",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-082",
+      "localId": "082",
+      "name": "Leafeon ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/082",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Eevee",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Solar Beam",
+          "damage": 70
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Forest Breath",
+          "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may take a {G} Energy from your Energy Zone and attach it to 1 of your {G} Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-083",
+      "localId": "083",
+      "name": "Glaceon ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/083",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Eevee",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "name": "Freezing Wind",
+          "damage": 90
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Snowy Terrain",
+          "effect": "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-084",
+      "localId": "084",
+      "name": "Garchomp ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/084",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Gabite",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Linear Attack",
+          "effect": "This attack does 50 damage to 1 of your opponent's Pokémon."
+        },
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "name": "Dragon Claw",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-085",
+      "localId": "085",
+      "name": "Probopass ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/085",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Nosepass",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Defensive Unit",
+          "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+          "damage": 90
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA Tsuji",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-086",
+      "localId": "086",
+      "name": "Arceus ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/086",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Ultimate Force",
+          "effect": "This attack does 20 more damage for each of your Benched Pokémon.",
+          "damage": "70+"
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Fabled Luster",
+          "effect": "This Pokémon can't be affected by any Special Conditions."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-087",
+      "localId": "087",
+      "name": "Irida",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/087",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Atsushi Furusawa",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Heal 40 damage from each of your Pokémon that has any {W} Energy attached.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-088",
+      "localId": "088",
+      "name": "Celestic Town Elder",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/088",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Yuu Nishida",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "Put 1 random Basic Pokémon from your discard pile into your hand.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-089",
+      "localId": "089",
+      "name": "Barry",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/089",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "Hideki Ishikawa",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "During this turn, attacks used by your Snorlax, Heracross, and Staraptor cost 2 less {C} Energy.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-090",
+      "localId": "090",
+      "name": "Adaman",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/090",
+      "boosters": [],
+      "types": [],
+      "stage": "Basic",
+      "category": "Trainer",
+      "hp": null,
+      "evolveFrom": null,
+      "rarity": "Two Star",
+      "retreat": 0,
+      "attacks": [],
+      "abilities": [],
+      "weaknesses": [],
+      "illustrator": "akagi",
+      "description": "",
+      "trainerType": "Supporter",
+      "effect": "During your opponent's next turn, all of your {M} Pokémon take −20 damage from attacks from your opponent's Pokémon.",
+      "energyType": null
+    },
+    {
+      "id": "A2a-091",
+      "localId": "091",
+      "name": "Leafeon ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/091",
+      "boosters": [],
+      "types": [
+        "Grass"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Eevee",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Grass",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Solar Beam",
+          "damage": 70
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Forest Breath",
+          "effect": "Once during your turn, if this Pokémon is in the Active Spot, you may take a {G} Energy from your Energy Zone and attach it to 1 of your {G} Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "saino misaki",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-092",
+      "localId": "092",
+      "name": "Glaceon ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/092",
+      "boosters": [],
+      "types": [
+        "Water"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": "Eevee",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Water",
+            "Water",
+            "Colorless"
+          ],
+          "name": "Freezing Wind",
+          "damage": 90
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Snowy Terrain",
+          "effect": "During Pokémon Checkup, if this Pokémon is in the Active Spot, do 10 damage to your opponent's Active Pokémon."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Metal",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "rika",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-093",
+      "localId": "093",
+      "name": "Garchomp ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/093",
+      "boosters": [],
+      "types": [
+        "Fighting"
+      ],
+      "stage": "Stage2",
+      "category": "Pokemon",
+      "hp": 170,
+      "evolveFrom": "Gabite",
+      "rarity": "Two Star",
+      "retreat": 1,
+      "attacks": [
+        {
+          "cost": [
+            "Fighting"
+          ],
+          "name": "Linear Attack",
+          "effect": "This attack does 50 damage to 1 of your opponent's Pokémon."
+        },
+        {
+          "cost": [
+            "Fighting",
+            "Fighting",
+            "Colorless"
+          ],
+          "name": "Dragon Claw",
+          "damage": 100
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Grass",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "toriyufu",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-094",
+      "localId": "094",
+      "name": "Probopass ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/094",
+      "boosters": [],
+      "types": [
+        "Metal"
+      ],
+      "stage": "Stage1",
+      "category": "Pokemon",
+      "hp": 160,
+      "evolveFrom": "Nosepass",
+      "rarity": "Two Star",
+      "retreat": 3,
+      "attacks": [
+        {
+          "cost": [
+            "Metal",
+            "Metal",
+            "Colorless"
+          ],
+          "name": "Defensive Unit",
+          "effect": "During your opponent's next turn, this Pokémon takes −20 damage from attacks.",
+          "damage": 90
+        }
+      ],
+      "abilities": [],
+      "weaknesses": [
+        {
+          "type": "Fire",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Masa",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-095",
+      "localId": "095",
+      "name": "Arceus ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/095",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": null,
+      "rarity": "Three Star",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Ultimate Force",
+          "effect": "This attack does 20 more damage for each of your Benched Pokémon.",
+          "damage": "70+"
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Fabled Luster",
+          "effect": "This Pokémon can't be affected by any Special Conditions."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "Takumi Wada",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    },
+    {
+      "id": "A2a-096",
+      "localId": "096",
+      "name": "Arceus ex",
+      "image": "https://assets.tcgdex.net/en/tcgp/A2a/096",
+      "boosters": [],
+      "types": [
+        "Colorless"
+      ],
+      "stage": "Basic",
+      "category": "Pokemon",
+      "hp": 140,
+      "evolveFrom": null,
+      "rarity": "Crown",
+      "retreat": 2,
+      "attacks": [
+        {
+          "cost": [
+            "Colorless",
+            "Colorless",
+            "Colorless"
+          ],
+          "name": "Ultimate Force",
+          "effect": "This attack does 20 more damage for each of your Benched Pokémon.",
+          "damage": "70+"
+        }
+      ],
+      "abilities": [
+        {
+          "type": "Ability",
+          "name": "Fabled Luster",
+          "effect": "This Pokémon can't be affected by any Special Conditions."
+        }
+      ],
+      "weaknesses": [
+        {
+          "type": "Fighting",
+          "value": "+20"
+        }
+      ],
+      "illustrator": "PLANETA CG Works",
+      "description": "",
+      "trainerType": null,
+      "effect": null,
+      "energyType": null
+    }
+  ]
+}

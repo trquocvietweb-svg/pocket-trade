@@ -1,0 +1,4149 @@
+{
+  "id": "A4B",
+  "name": "Deluxe Pack ex",
+  "logo": "/images/logos/A4B.webp",
+  "serie": {
+    "id": "tcgp",
+    "name": "Pokémon TCG Pocket"
+  },
+  "releaseDate": "2025-08-01",
+  "legal": {
+    "standard": false,
+    "expanded": false
+  },
+  "cards": [
+    {
+      "id": "A4B-001",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/001",
+      "localId": "001",
+      "name": "Bulbasaur",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-002",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/002",
+      "localId": "002",
+      "name": "Bulbasaur",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-003",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/003",
+      "localId": "003",
+      "name": "Ivysaur",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-004",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/004",
+      "localId": "004",
+      "name": "Ivysaur",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-005",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/005",
+      "localId": "005",
+      "name": "Venusaur ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-006",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/006",
+      "localId": "006",
+      "name": "Weedle",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-007",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/007",
+      "localId": "007",
+      "name": "Weedle",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-008",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/008",
+      "localId": "008",
+      "name": "Kakuna",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-009",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/009",
+      "localId": "009",
+      "name": "Kakuna",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-010",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/010",
+      "localId": "010",
+      "name": "Beedrill ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-011",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/011",
+      "localId": "011",
+      "name": "Exeggcute",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-012",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/012",
+      "localId": "012",
+      "name": "Exeggcute",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-013",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/013",
+      "localId": "013",
+      "name": "Exeggutor ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-014",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/014",
+      "localId": "014",
+      "name": "Hoppip",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-015",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/015",
+      "localId": "015",
+      "name": "Hoppip",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-016",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/016",
+      "localId": "016",
+      "name": "Skiploom",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-017",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/017",
+      "localId": "017",
+      "name": "Skiploom",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-018",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/018",
+      "localId": "018",
+      "name": "Jumpluff",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-019",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/019",
+      "localId": "019",
+      "name": "Jumpluff",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-020",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/020",
+      "localId": "020",
+      "name": "Yanma",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-021",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/021",
+      "localId": "021",
+      "name": "Yanma",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-022",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/022",
+      "localId": "022",
+      "name": "Yanmega ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-023",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/023",
+      "localId": "023",
+      "name": "Shuckle ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-024",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/024",
+      "localId": "024",
+      "name": "Celebi ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-025",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/025",
+      "localId": "025",
+      "name": "Cherubi",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-026",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/026",
+      "localId": "026",
+      "name": "Cherubi",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-027",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/027",
+      "localId": "027",
+      "name": "Cherrim",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-028",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/028",
+      "localId": "028",
+      "name": "Cherrim",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-029",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/029",
+      "localId": "029",
+      "name": "Leafeon ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-030",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/030",
+      "localId": "030",
+      "name": "Shaymin",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-031",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/031",
+      "localId": "031",
+      "name": "Shaymin",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-032",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/032",
+      "localId": "032",
+      "name": "Snivy",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-033",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/033",
+      "localId": "033",
+      "name": "Snivy",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-034",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/034",
+      "localId": "034",
+      "name": "Servine",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-035",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/035",
+      "localId": "035",
+      "name": "Servine",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-036",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/036",
+      "localId": "036",
+      "name": "Serperior",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-037",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/037",
+      "localId": "037",
+      "name": "Serperior",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-038",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/038",
+      "localId": "038",
+      "name": "Rowlet",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-039",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/039",
+      "localId": "039",
+      "name": "Rowlet",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-040",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/040",
+      "localId": "040",
+      "name": "Dartrix",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-041",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/041",
+      "localId": "041",
+      "name": "Dartrix",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-042",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/042",
+      "localId": "042",
+      "name": "Decidueye ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-043",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/043",
+      "localId": "043",
+      "name": "Dhelmise ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-044",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/044",
+      "localId": "044",
+      "name": "Buzzwole ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-045",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/045",
+      "localId": "045",
+      "name": "Pheromosa",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-046",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/046",
+      "localId": "046",
+      "name": "Pheromosa",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-047",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/047",
+      "localId": "047",
+      "name": "Kartana",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-048",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/048",
+      "localId": "048",
+      "name": "Kartana",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-049",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/049",
+      "localId": "049",
+      "name": "Sprigatito",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-050",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/050",
+      "localId": "050",
+      "name": "Sprigatito",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-051",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/051",
+      "localId": "051",
+      "name": "Floragato",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-052",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/052",
+      "localId": "052",
+      "name": "Floragato",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-053",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/053",
+      "localId": "053",
+      "name": "Meowscarada",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-054",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/054",
+      "localId": "054",
+      "name": "Meowscarada",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-055",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/055",
+      "localId": "055",
+      "name": "Charmander",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-056",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/056",
+      "localId": "056",
+      "name": "Charmander",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-057",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/057",
+      "localId": "057",
+      "name": "Charmeleon",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-058",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/058",
+      "localId": "058",
+      "name": "Charmeleon",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-059",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/059",
+      "localId": "059",
+      "name": "Charizard ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-060",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/060",
+      "localId": "060",
+      "name": "Charizard ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-061",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/061",
+      "localId": "061",
+      "name": "Growlithe",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-062",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/062",
+      "localId": "062",
+      "name": "Growlithe",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-063",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/063",
+      "localId": "063",
+      "name": "Arcanine ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-064",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/064",
+      "localId": "064",
+      "name": "Flareon",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-065",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/065",
+      "localId": "065",
+      "name": "Flareon",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-066",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/066",
+      "localId": "066",
+      "name": "Flareon ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-067",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/067",
+      "localId": "067",
+      "name": "Moltres ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-068",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/068",
+      "localId": "068",
+      "name": "Ho_Oh ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-069",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/069",
+      "localId": "069",
+      "name": "Torkoal",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-070",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/070",
+      "localId": "070",
+      "name": "Torkoal",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-071",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/071",
+      "localId": "071",
+      "name": "Chimchar",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-072",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/072",
+      "localId": "072",
+      "name": "Chimchar",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-073",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/073",
+      "localId": "073",
+      "name": "Monferno",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-074",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/074",
+      "localId": "074",
+      "name": "Monferno",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-075",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/075",
+      "localId": "075",
+      "name": "Infernape ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-076",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/076",
+      "localId": "076",
+      "name": "Heatran",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-077",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/077",
+      "localId": "077",
+      "name": "Heatran",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-078",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/078",
+      "localId": "078",
+      "name": "Litten",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-079",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/079",
+      "localId": "079",
+      "name": "Litten",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-080",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/080",
+      "localId": "080",
+      "name": "Torracat",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-081",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/081",
+      "localId": "081",
+      "name": "Torracat",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-082",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/082",
+      "localId": "082",
+      "name": "Incineroar ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-083",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/083",
+      "localId": "083",
+      "name": "Squirtle",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-084",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/084",
+      "localId": "084",
+      "name": "Squirtle",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-085",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/085",
+      "localId": "085",
+      "name": "Wartortle",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-086",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/086",
+      "localId": "086",
+      "name": "Wartortle",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-087",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/087",
+      "localId": "087",
+      "name": "Blastoise ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-088",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/088",
+      "localId": "088",
+      "name": "Horsea",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-089",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/089",
+      "localId": "089",
+      "name": "Horsea",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-090",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/090",
+      "localId": "090",
+      "name": "Seadra",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-091",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/091",
+      "localId": "091",
+      "name": "Seadra",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-092",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/092",
+      "localId": "092",
+      "name": "Kingdra ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-093",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/093",
+      "localId": "093",
+      "name": "Staryu",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-094",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/094",
+      "localId": "094",
+      "name": "Staryu",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-095",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/095",
+      "localId": "095",
+      "name": "Starmie ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-096",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/096",
+      "localId": "096",
+      "name": "Magikarp",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-097",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/097",
+      "localId": "097",
+      "name": "Magikarp",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-098",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/098",
+      "localId": "098",
+      "name": "Gyarados ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-099",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/099",
+      "localId": "099",
+      "name": "Vaporeon",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-100",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/100",
+      "localId": "100",
+      "name": "Vaporeon",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-101",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/101",
+      "localId": "101",
+      "name": "Articuno ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-102",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/102",
+      "localId": "102",
+      "name": "Corphish",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-103",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/103",
+      "localId": "103",
+      "name": "Corphish",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-104",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/104",
+      "localId": "104",
+      "name": "Crawdaunt",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-105",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/105",
+      "localId": "105",
+      "name": "Crawdaunt",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-106",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/106",
+      "localId": "106",
+      "name": "Glaceon ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-107",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/107",
+      "localId": "107",
+      "name": "Palkia ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-108",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/108",
+      "localId": "108",
+      "name": "Manaphy",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-109",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/109",
+      "localId": "109",
+      "name": "Manaphy",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-110",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/110",
+      "localId": "110",
+      "name": "Froakie",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-111",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/111",
+      "localId": "111",
+      "name": "Froakie",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-112",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/112",
+      "localId": "112",
+      "name": "Frogadier",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-113",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/113",
+      "localId": "113",
+      "name": "Frogadier",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-114",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/114",
+      "localId": "114",
+      "name": "Greninja",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-115",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/115",
+      "localId": "115",
+      "name": "Greninja",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-116",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/116",
+      "localId": "116",
+      "name": "Popplio",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-117",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/117",
+      "localId": "117",
+      "name": "Popplio",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-118",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/118",
+      "localId": "118",
+      "name": "Brionne",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-119",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/119",
+      "localId": "119",
+      "name": "Brionne",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-120",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/120",
+      "localId": "120",
+      "name": "Primarina ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-121",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/121",
+      "localId": "121",
+      "name": "Crabominable ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-122",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/122",
+      "localId": "122",
+      "name": "Wishiwashi",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-123",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/123",
+      "localId": "123",
+      "name": "Wishiwashi",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-124",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/124",
+      "localId": "124",
+      "name": "Wishiwashi ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-125",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/125",
+      "localId": "125",
+      "name": "Wiglett",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-126",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/126",
+      "localId": "126",
+      "name": "Wiglett",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-127",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/127",
+      "localId": "127",
+      "name": "Wugtrio ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-128",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/128",
+      "localId": "128",
+      "name": "Pikachu",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-129",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/129",
+      "localId": "129",
+      "name": "Pikachu",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-130",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/130",
+      "localId": "130",
+      "name": "Alolan Raichu ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-131",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/131",
+      "localId": "131",
+      "name": "Pikachu ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-132",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/132",
+      "localId": "132",
+      "name": "Pikachu ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-133",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/133",
+      "localId": "133",
+      "name": "Magnemite",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-134",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/134",
+      "localId": "134",
+      "name": "Magnemite",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-135",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/135",
+      "localId": "135",
+      "name": "Magneton",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-136",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/136",
+      "localId": "136",
+      "name": "Magneton",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-137",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/137",
+      "localId": "137",
+      "name": "Magnezone",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-138",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/138",
+      "localId": "138",
+      "name": "Magnezone",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-139",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/139",
+      "localId": "139",
+      "name": "Zapdos ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-140",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/140",
+      "localId": "140",
+      "name": "Chinchou",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-141",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/141",
+      "localId": "141",
+      "name": "Chinchou",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-142",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/142",
+      "localId": "142",
+      "name": "Lanturn ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-143",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/143",
+      "localId": "143",
+      "name": "Pachirisu",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-144",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/144",
+      "localId": "144",
+      "name": "Pachirisu",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-145",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/145",
+      "localId": "145",
+      "name": "Pachirisu ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-146",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/146",
+      "localId": "146",
+      "name": "Oricorio",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-147",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/147",
+      "localId": "147",
+      "name": "Oricorio",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-148",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/148",
+      "localId": "148",
+      "name": "Tapu Koko ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-149",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/149",
+      "localId": "149",
+      "name": "Zeraora",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-150",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/150",
+      "localId": "150",
+      "name": "Zeraora",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-151",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/151",
+      "localId": "151",
+      "name": "Gastly",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-152",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/152",
+      "localId": "152",
+      "name": "Gastly",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-153",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/153",
+      "localId": "153",
+      "name": "Haunter",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-154",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/154",
+      "localId": "154",
+      "name": "Haunter",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-155",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/155",
+      "localId": "155",
+      "name": "Gengar ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-156",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/156",
+      "localId": "156",
+      "name": "Jynx",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-157",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/157",
+      "localId": "157",
+      "name": "Jynx",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-158",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/158",
+      "localId": "158",
+      "name": "Mewtwo ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-159",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/159",
+      "localId": "159",
+      "name": "Mew ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-160",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/160",
+      "localId": "160",
+      "name": "Espeon ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-161",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/161",
+      "localId": "161",
+      "name": "Misdreavus",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-162",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/162",
+      "localId": "162",
+      "name": "Misdreavus",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-163",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/163",
+      "localId": "163",
+      "name": "Mismagius ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-164",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/164",
+      "localId": "164",
+      "name": "Ralts",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-165",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/165",
+      "localId": "165",
+      "name": "Ralts",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-166",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/166",
+      "localId": "166",
+      "name": "Kirlia",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-167",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/167",
+      "localId": "167",
+      "name": "Kirlia",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-168",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/168",
+      "localId": "168",
+      "name": "Gardevoir",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-169",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/169",
+      "localId": "169",
+      "name": "Gardevoir",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-170",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/170",
+      "localId": "170",
+      "name": "Giratina",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-171",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/171",
+      "localId": "171",
+      "name": "Giratina",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-172",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/172",
+      "localId": "172",
+      "name": "Giratina ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-173",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/173",
+      "localId": "173",
+      "name": "Swirlix",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-174",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/174",
+      "localId": "174",
+      "name": "Swirlix",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-175",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/175",
+      "localId": "175",
+      "name": "Slurpuff",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-176",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/176",
+      "localId": "176",
+      "name": "Slurpuff",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-177",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/177",
+      "localId": "177",
+      "name": "Sylveon ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-178",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/178",
+      "localId": "178",
+      "name": "Oricorio",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-179",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/179",
+      "localId": "179",
+      "name": "Oricorio",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-180",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/180",
+      "localId": "180",
+      "name": "Cosmog",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-181",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/181",
+      "localId": "181",
+      "name": "Cosmog",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-182",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/182",
+      "localId": "182",
+      "name": "Cosmoem",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-183",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/183",
+      "localId": "183",
+      "name": "Cosmoem",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-184",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/184",
+      "localId": "184",
+      "name": "Lunala ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-185",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/185",
+      "localId": "185",
+      "name": "Milcery",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-186",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/186",
+      "localId": "186",
+      "name": "Milcery",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-187",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/187",
+      "localId": "187",
+      "name": "Alcremie",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-188",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/188",
+      "localId": "188",
+      "name": "Alcremie",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-189",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/189",
+      "localId": "189",
+      "name": "Machop",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-190",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/190",
+      "localId": "190",
+      "name": "Machop",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-191",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/191",
+      "localId": "191",
+      "name": "Machoke",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-192",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/192",
+      "localId": "192",
+      "name": "Machoke",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-193",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/193",
+      "localId": "193",
+      "name": "Machamp ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-194",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/194",
+      "localId": "194",
+      "name": "Cubone",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-195",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/195",
+      "localId": "195",
+      "name": "Cubone",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-196",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/196",
+      "localId": "196",
+      "name": "Marowak ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-197",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/197",
+      "localId": "197",
+      "name": "Aerodactyl ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-198",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/198",
+      "localId": "198",
+      "name": "Sudowoodo",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-199",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/199",
+      "localId": "199",
+      "name": "Sudowoodo",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-200",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/200",
+      "localId": "200",
+      "name": "Phanpy",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-201",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/201",
+      "localId": "201",
+      "name": "Phanpy",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-202",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/202",
+      "localId": "202",
+      "name": "Donphan ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-203",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/203",
+      "localId": "203",
+      "name": "Nosepass",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-204",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/204",
+      "localId": "204",
+      "name": "Nosepass",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-205",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/205",
+      "localId": "205",
+      "name": "Gible",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-206",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/206",
+      "localId": "206",
+      "name": "Gible",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-207",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/207",
+      "localId": "207",
+      "name": "Gabite",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-208",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/208",
+      "localId": "208",
+      "name": "Gabite",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-209",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/209",
+      "localId": "209",
+      "name": "Garchomp ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-210",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/210",
+      "localId": "210",
+      "name": "Riolu",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-211",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/211",
+      "localId": "211",
+      "name": "Riolu",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-212",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/212",
+      "localId": "212",
+      "name": "Lucario",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-213",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/213",
+      "localId": "213",
+      "name": "Lucario",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-214",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/214",
+      "localId": "214",
+      "name": "Lucario ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-215",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/215",
+      "localId": "215",
+      "name": "Gallade ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-216",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/216",
+      "localId": "216",
+      "name": "Drilbur",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-217",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/217",
+      "localId": "217",
+      "name": "Drilbur",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-218",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/218",
+      "localId": "218",
+      "name": "Crabrawler",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-219",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/219",
+      "localId": "219",
+      "name": "Crabrawler",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-220",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/220",
+      "localId": "220",
+      "name": "Rockruff",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-221",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/221",
+      "localId": "221",
+      "name": "Rockruff",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-222",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/222",
+      "localId": "222",
+      "name": "Lycanroc ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-223",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/223",
+      "localId": "223",
+      "name": "Passimian ex",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-224",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/224",
+      "localId": "224",
+      "name": "Marshadow",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-225",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/225",
+      "localId": "225",
+      "name": "Marshadow",
+      "types": [
+        "Fighting"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-226",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/226",
+      "localId": "226",
+      "name": "Zubat",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-227",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/227",
+      "localId": "227",
+      "name": "Zubat",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-228",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/228",
+      "localId": "228",
+      "name": "Golbat",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-229",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/229",
+      "localId": "229",
+      "name": "Golbat",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-230",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/230",
+      "localId": "230",
+      "name": "Crobat",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-231",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/231",
+      "localId": "231",
+      "name": "Crobat",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-232",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/232",
+      "localId": "232",
+      "name": "Crobat ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-233",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/233",
+      "localId": "233",
+      "name": "Alolan Grimer",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-234",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/234",
+      "localId": "234",
+      "name": "Alolan Grimer",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-235",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/235",
+      "localId": "235",
+      "name": "Alolan Muk ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-236",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/236",
+      "localId": "236",
+      "name": "Paldean Wooper",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-237",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/237",
+      "localId": "237",
+      "name": "Paldean Wooper",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-238",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/238",
+      "localId": "238",
+      "name": "Paldean Clodsire ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-239",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/239",
+      "localId": "239",
+      "name": "Umbreon",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-240",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/240",
+      "localId": "240",
+      "name": "Umbreon",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-241",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/241",
+      "localId": "241",
+      "name": "Umbreon ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-242",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/242",
+      "localId": "242",
+      "name": "Sneasel",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-243",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/243",
+      "localId": "243",
+      "name": "Sneasel",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-244",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/244",
+      "localId": "244",
+      "name": "Weavile ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-245",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/245",
+      "localId": "245",
+      "name": "Darkrai ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-246",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/246",
+      "localId": "246",
+      "name": "Nihilego",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-247",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/247",
+      "localId": "247",
+      "name": "Nihilego",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-248",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/248",
+      "localId": "248",
+      "name": "Guzzlord ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-249",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/249",
+      "localId": "249",
+      "name": "Alolan Diglett",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-250",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/250",
+      "localId": "250",
+      "name": "Alolan Diglett",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-251",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/251",
+      "localId": "251",
+      "name": "Alolan Dugtrio ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-252",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/252",
+      "localId": "252",
+      "name": "Skarmory ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-253",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/253",
+      "localId": "253",
+      "name": "Probopass ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-254",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/254",
+      "localId": "254",
+      "name": "Dialga ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-255",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/255",
+      "localId": "255",
+      "name": "Excadrill",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-256",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/256",
+      "localId": "256",
+      "name": "Excadrill",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-257",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/257",
+      "localId": "257",
+      "name": "Klefki",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-258",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/258",
+      "localId": "258",
+      "name": "Klefki",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-259",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/259",
+      "localId": "259",
+      "name": "Solgaleo ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-260",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/260",
+      "localId": "260",
+      "name": "Magearna",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-261",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/261",
+      "localId": "261",
+      "name": "Magearna",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-262",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/262",
+      "localId": "262",
+      "name": "Tinkatink",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-263",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/263",
+      "localId": "263",
+      "name": "Tinkatink",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-264",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/264",
+      "localId": "264",
+      "name": "Tinkatuff",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-265",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/265",
+      "localId": "265",
+      "name": "Tinkatuff",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-266",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/266",
+      "localId": "266",
+      "name": "Tinkaton ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-267",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/267",
+      "localId": "267",
+      "name": "Dratini",
+      "types": [
+        "Dragon"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-268",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/268",
+      "localId": "268",
+      "name": "Dratini",
+      "types": [
+        "Dragon"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-269",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/269",
+      "localId": "269",
+      "name": "Dragonair",
+      "types": [
+        "Dragon"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-270",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/270",
+      "localId": "270",
+      "name": "Dragonair",
+      "types": [
+        "Dragon"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-271",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/271",
+      "localId": "271",
+      "name": "Dragonite ex",
+      "types": [
+        "Dragon"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-272",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/272",
+      "localId": "272",
+      "name": "Pidgey",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-273",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/273",
+      "localId": "273",
+      "name": "Pidgey",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-274",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/274",
+      "localId": "274",
+      "name": "Pidgeotto",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-275",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/275",
+      "localId": "275",
+      "name": "Pidgeotto",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-276",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/276",
+      "localId": "276",
+      "name": "Pidgeot ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-277",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/277",
+      "localId": "277",
+      "name": "Jigglypuff",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-278",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/278",
+      "localId": "278",
+      "name": "Jigglypuff",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-279",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/279",
+      "localId": "279",
+      "name": "Wigglytuff ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-280",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/280",
+      "localId": "280",
+      "name": "Farfetch___d",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-281",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/281",
+      "localId": "281",
+      "name": "Farfetch___d",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-282",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/282",
+      "localId": "282",
+      "name": "Lickitung",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-283",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/283",
+      "localId": "283",
+      "name": "Lickitung",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-284",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/284",
+      "localId": "284",
+      "name": "Lickilicky ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-285",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/285",
+      "localId": "285",
+      "name": "Eevee",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-286",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/286",
+      "localId": "286",
+      "name": "Eevee",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-287",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/287",
+      "localId": "287",
+      "name": "Eevee ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-288",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/288",
+      "localId": "288",
+      "name": "Snorlax ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-289",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/289",
+      "localId": "289",
+      "name": "Lugia ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-290",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/290",
+      "localId": "290",
+      "name": "Skitty",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-291",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/291",
+      "localId": "291",
+      "name": "Skitty",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-292",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/292",
+      "localId": "292",
+      "name": "Delcatty",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-293",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/293",
+      "localId": "293",
+      "name": "Delcatty",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-294",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/294",
+      "localId": "294",
+      "name": "Bidoof",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-295",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/295",
+      "localId": "295",
+      "name": "Bidoof",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-296",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/296",
+      "localId": "296",
+      "name": "Bibarel ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-297",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/297",
+      "localId": "297",
+      "name": "Shaymin",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-298",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/298",
+      "localId": "298",
+      "name": "Shaymin",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-299",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/299",
+      "localId": "299",
+      "name": "Arceus ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-300",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/300",
+      "localId": "300",
+      "name": "Type_ Null",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-301",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/301",
+      "localId": "301",
+      "name": "Type_ Null",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-302",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/302",
+      "localId": "302",
+      "name": "Silvally",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-303",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/303",
+      "localId": "303",
+      "name": "Silvally",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-304",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/304",
+      "localId": "304",
+      "name": "Celesteela",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-305",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/305",
+      "localId": "305",
+      "name": "Celesteela",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-306",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/306",
+      "localId": "306",
+      "name": "Cyclizar",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-307",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/307",
+      "localId": "307",
+      "name": "Cyclizar",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "◆◆",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-308",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/308",
+      "localId": "308",
+      "name": "Eevee Bag",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-309",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/309",
+      "localId": "309",
+      "name": "Eevee Bag",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-310",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/310",
+      "localId": "310",
+      "name": "Elemental Switch",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-311",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/311",
+      "localId": "311",
+      "name": "Elemental Switch",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-312",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/312",
+      "localId": "312",
+      "name": "Old Amber",
+      "types": [],
+      "rarity": "◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-313",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/313",
+      "localId": "313",
+      "name": "Old Amber",
+      "types": [],
+      "rarity": "◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-314",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/314",
+      "localId": "314",
+      "name": "Rare Candy",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-315",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/315",
+      "localId": "315",
+      "name": "Rare Candy",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-316",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/316",
+      "localId": "316",
+      "name": "Pok__mon Communication",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-317",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/317",
+      "localId": "317",
+      "name": "Pok__mon Communication",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Item"
+    },
+    {
+      "id": "A4B-318",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/318",
+      "localId": "318",
+      "name": "Electrical Cord",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-319",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/319",
+      "localId": "319",
+      "name": "Electrical Cord",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-320",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/320",
+      "localId": "320",
+      "name": "Giant Cape",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-321",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/321",
+      "localId": "321",
+      "name": "Giant Cape",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-322",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/322",
+      "localId": "322",
+      "name": "Rocky Helmet",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-323",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/323",
+      "localId": "323",
+      "name": "Rocky Helmet",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-324",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/324",
+      "localId": "324",
+      "name": "Leaf Cape",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-325",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/325",
+      "localId": "325",
+      "name": "Leaf Cape",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Tool"
+    },
+    {
+      "id": "A4B-326",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/326",
+      "localId": "326",
+      "name": "Cyrus",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-327",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/327",
+      "localId": "327",
+      "name": "Cyrus",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-328",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/328",
+      "localId": "328",
+      "name": "Erika",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-329",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/329",
+      "localId": "329",
+      "name": "Erika",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-330",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/330",
+      "localId": "330",
+      "name": "Irida",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-331",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/331",
+      "localId": "331",
+      "name": "Irida",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-332",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/332",
+      "localId": "332",
+      "name": "Lyra",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-333",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/333",
+      "localId": "333",
+      "name": "Lyra",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-334",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/334",
+      "localId": "334",
+      "name": "Giovanni",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-335",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/335",
+      "localId": "335",
+      "name": "Giovanni",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-336",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/336",
+      "localId": "336",
+      "name": "Silver",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-337",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/337",
+      "localId": "337",
+      "name": "Silver",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-338",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/338",
+      "localId": "338",
+      "name": "Sabrina",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-339",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/339",
+      "localId": "339",
+      "name": "Sabrina",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-340",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/340",
+      "localId": "340",
+      "name": "Iono",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-341",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/341",
+      "localId": "341",
+      "name": "Iono",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-342",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/342",
+      "localId": "342",
+      "name": "Dawn",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-343",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/343",
+      "localId": "343",
+      "name": "Dawn",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-344",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/344",
+      "localId": "344",
+      "name": "Mars",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-345",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/345",
+      "localId": "345",
+      "name": "Mars",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-346",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/346",
+      "localId": "346",
+      "name": "Leaf",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-347",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/347",
+      "localId": "347",
+      "name": "Leaf",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-348",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/348",
+      "localId": "348",
+      "name": "Lillie",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-349",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/349",
+      "localId": "349",
+      "name": "Lillie",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-350",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/350",
+      "localId": "350",
+      "name": "Lusamine",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-351",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/351",
+      "localId": "351",
+      "name": "Lusamine",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-352",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/352",
+      "localId": "352",
+      "name": "Red",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-353",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/353",
+      "localId": "353",
+      "name": "Red",
+      "types": [],
+      "rarity": "◆◆",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-354",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/354",
+      "localId": "354",
+      "name": "Floragato",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-355",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/355",
+      "localId": "355",
+      "name": "Crawdaunt",
+      "types": [
+        "Water"
+      ],
+      "rarity": "★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-356",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/356",
+      "localId": "356",
+      "name": "Greninja",
+      "types": [
+        "Water"
+      ],
+      "rarity": "★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-357",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/357",
+      "localId": "357",
+      "name": "Gardevoir",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-358",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/358",
+      "localId": "358",
+      "name": "Slurpuff",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-359",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/359",
+      "localId": "359",
+      "name": "Farfetch___d",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-360",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/360",
+      "localId": "360",
+      "name": "Buzzwole ex",
+      "types": [
+        "Grass"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-361",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/361",
+      "localId": "361",
+      "name": "Charizard ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-362",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/362",
+      "localId": "362",
+      "name": "Ho_Oh ex",
+      "types": [
+        "Fire"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-363",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/363",
+      "localId": "363",
+      "name": "Palkia ex",
+      "types": [
+        "Water"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-364",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/364",
+      "localId": "364",
+      "name": "Pikachu ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-365",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/365",
+      "localId": "365",
+      "name": "Mewtwo ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-366",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/366",
+      "localId": "366",
+      "name": "Mew ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-367",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/367",
+      "localId": "367",
+      "name": "Lunala ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-368",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/368",
+      "localId": "368",
+      "name": "Dialga ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-369",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/369",
+      "localId": "369",
+      "name": "Solgaleo ex",
+      "types": [
+        "Metal"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-370",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/370",
+      "localId": "370",
+      "name": "Eevee ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-371",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/371",
+      "localId": "371",
+      "name": "Lugia ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-372",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/372",
+      "localId": "372",
+      "name": "Arceus ex",
+      "types": [
+        "Colorless"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-373",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/373",
+      "localId": "373",
+      "name": "Professor___s Research",
+      "types": [],
+      "rarity": "★★",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-374",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/374",
+      "localId": "374",
+      "name": "Lillie",
+      "types": [],
+      "rarity": "★★",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-375",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/375",
+      "localId": "375",
+      "name": "Lusamine",
+      "types": [],
+      "rarity": "★★",
+      "category": "Trainer",
+      "trainerType": "Supporter"
+    },
+    {
+      "id": "A4B-376",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/376",
+      "localId": "376",
+      "name": "Pikachu ex",
+      "types": [
+        "Lightning"
+      ],
+      "rarity": "★★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-377",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/377",
+      "localId": "377",
+      "name": "Giratina ex",
+      "types": [
+        "Psychic"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-378",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/378",
+      "localId": "378",
+      "name": "Darkrai ex",
+      "types": [
+        "Darkness"
+      ],
+      "rarity": "★★",
+      "category": "Pokemon"
+    },
+    {
+      "id": "A4B-379",
+      "image": "https://assets.tcgdex.net/en/tcgp/A4B/379",
+      "localId": "379",
+      "name": "Rare Candy",
+      "types": [],
+      "rarity": "♛",
+      "category": "Trainer",
+      "trainerType": "Item"
+    }
+  ],
+  "cardCount": {
+    "total": 379,
+    "official": 379,
+    "normal": 0,
+    "reverse": 0,
+    "holo": 0,
+    "firstEd": 0
+  },
+  "boosters": [
+    {
+      "id": "boo_A4B-deluxe",
+      "name": "Deluxe"
+    }
+  ]
+}
