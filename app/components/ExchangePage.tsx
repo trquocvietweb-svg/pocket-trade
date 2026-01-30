@@ -138,27 +138,44 @@ const ExchangePage: React.FC = () => {
   const handleDownloadShare = async () => {
     if (!shareCardRef.current || !sharePost) return;
     setIsCapturing(true);
+    const source = shareCardRef.current;
+    const nodes = [source, ...Array.from(source.querySelectorAll('*'))] as HTMLElement[];
+    const restore = nodes.map((node) => ({
+      node,
+      color: node.style.color,
+      backgroundColor: node.style.backgroundColor,
+      borderColor: node.style.borderColor,
+      outlineColor: node.style.outlineColor,
+      textDecorationColor: node.style.textDecorationColor,
+      fill: node.style.fill,
+      stroke: node.style.stroke,
+      boxShadow: node.style.boxShadow,
+    }));
+
+    const sanitizeColor = (value: string, fallback: string) => {
+      if (!value) return fallback;
+      const lower = value.toLowerCase();
+      if (lower.includes('lab(') || lower.includes('lch(') || lower.includes('oklch(') || lower.includes('color(')) {
+        return fallback;
+      }
+      return value;
+    };
     try {
-      const source = shareCardRef.current;
+      nodes.forEach((node) => {
+        const computed = window.getComputedStyle(node);
+        node.style.color = sanitizeColor(computed.color, '#0f172a');
+        node.style.backgroundColor = sanitizeColor(computed.backgroundColor, '#ffffff');
+        node.style.borderColor = sanitizeColor(computed.borderColor, '#e2e8f0');
+        node.style.outlineColor = sanitizeColor(computed.outlineColor, '#e2e8f0');
+        node.style.textDecorationColor = sanitizeColor(computed.textDecorationColor, '#0f172a');
+        node.style.fill = sanitizeColor(computed.fill, '#0f172a');
+        node.style.stroke = sanitizeColor(computed.stroke, '#0f172a');
+        node.style.boxShadow = sanitizeColor(computed.boxShadow, 'none');
+      });
       const canvas = await html2canvas(source, {
         backgroundColor: '#ffffff',
         scale: 2,
         useCORS: true,
-        onclone: (doc) => {
-          const cloned = doc.querySelector('[data-share-capture="true"]') as HTMLElement | null;
-          if (!cloned) return;
-          const sourceNodes = [source, ...Array.from(source.querySelectorAll('*'))] as HTMLElement[];
-          const clonedNodes = [cloned, ...Array.from(cloned.querySelectorAll('*'))] as HTMLElement[];
-          sourceNodes.forEach((node, index) => {
-            const target = clonedNodes[index];
-            if (!target) return;
-            const computed = window.getComputedStyle(node);
-            target.style.color = computed.color;
-            target.style.backgroundColor = computed.backgroundColor;
-            target.style.borderColor = computed.borderColor;
-            target.style.boxShadow = computed.boxShadow;
-          });
-        },
       });
       const dataUrl = canvas.toDataURL('image/png');
       const link = document.createElement('a');
@@ -166,6 +183,16 @@ const ExchangePage: React.FC = () => {
       link.download = `trade-${sharePost._id}.png`;
       link.click();
     } finally {
+      restore.forEach((item) => {
+        item.node.style.color = item.color;
+        item.node.style.backgroundColor = item.backgroundColor;
+        item.node.style.borderColor = item.borderColor;
+        item.node.style.outlineColor = item.outlineColor;
+        item.node.style.textDecorationColor = item.textDecorationColor;
+        item.node.style.fill = item.fill;
+        item.node.style.stroke = item.stroke;
+        item.node.style.boxShadow = item.boxShadow;
+      });
       setIsCapturing(false);
     }
   };
