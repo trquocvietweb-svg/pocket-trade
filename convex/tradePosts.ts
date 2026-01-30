@@ -244,13 +244,29 @@ export const listPaginated = query({
     const startIndex = (currentPage - 1) * args.limit;
     const items = enrichedPosts.slice(startIndex, startIndex + args.limit);
     const totalPages = Math.ceil(enrichedPosts.length / args.limit);
+
+    // Chỉ đếm pending requests cho bài của trader (tránh tải dư)
+    let itemsWithRequests = items;
+    if (args.traderId) {
+      const requestCounts = await Promise.all(
+        items.map(item =>
+          ctx.db.query("tradeRequests")
+            .withIndex("by_trade_post_status", q => q.eq("tradePostId", item._id).eq("status", "pending"))
+            .take(500)
+        )
+      );
+      itemsWithRequests = items.map((item, index) => ({
+        ...item,
+        requestsCount: requestCounts[index].length,
+      }));
+    }
     
     // Get filter options from metadata (already loaded)
     const allRarities = rarities.map(r => r.name).sort();
     const allSets = sets.map(s => s.name).sort();
 
     return { 
-      items, 
+      items: itemsWithRequests, 
       total: enrichedPosts.length, 
       totalPages, 
       currentPage,

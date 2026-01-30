@@ -24,6 +24,7 @@ const ProfilePage: React.FC = () => {
   const [editError, setEditError] = useState('');
   const [isSaving, setIsSaving] = useState(false);
   const [copiedCode, setCopiedCode] = useState(false);
+  const [showAllPosts, setShowAllPosts] = useState(false);
 
   const updateProfile = useMutation(api.traders.updateProfile);
   
@@ -153,8 +154,13 @@ const ProfilePage: React.FC = () => {
   }
 
   const rankInfo = getRankInfo(trader.tradePoint ?? 0);
-  const activePosts = myPosts?.items.filter(p => p.status === 'active') || [];
-  const matchedPosts = myPosts?.items.filter(p => p.status === 'matched') || [];
+  const allPosts = myPosts?.items || [];
+  const activePosts = allPosts.filter(p => p.status === 'active');
+  const matchedPosts = allPosts.filter(p => p.status === 'matched');
+  const visiblePosts = showAllPosts ? allPosts : activePosts;
+  const sortedVisiblePosts = [...visiblePosts].sort((a, b) => b._creationTime - a._creationTime);
+  const newestPostId = sortedVisiblePosts[0]?._id;
+  const pendingRequestsTotal = activePosts.reduce((sum, post) => sum + (post.requestsCount ?? 0), 0);
 
   return (
     <div className="min-h-screen bg-[#0a1128] pb-20">
@@ -320,21 +326,48 @@ const ProfilePage: React.FC = () => {
 
       {/* Posts Section */}
       <div className="bg-white rounded-t-[2.5rem] min-h-[calc(100vh-280px)]">
-        <div className="px-6 pt-6 pb-4 flex items-center justify-between">
+        <div className="px-6 pt-6 pb-2 flex items-center justify-between">
             <div className="flex items-center gap-2">
                 <RefreshCcw className="w-5 h-5 text-teal-500" />
                 <h3 className="text-base font-black text-slate-900 uppercase tracking-tight">{t.profile.managePosts}</h3>
             </div>
-            <div className="bg-slate-100 px-3 py-1 rounded-full text-[10px] font-black text-slate-400 uppercase">
-                {t.common.total}: {myPosts?.total ?? 0}
+            <div className="flex items-center gap-2">
+                {pendingRequestsTotal > 0 && (
+                  <div className="bg-red-500 text-white px-2.5 py-1 rounded-full text-[10px] font-black uppercase shadow-sm">
+                    {pendingRequestsTotal} {t.trade.requests}
+                  </div>
+                )}
+                <div className="bg-slate-100 px-3 py-1 rounded-full text-[10px] font-black text-slate-400 uppercase">
+                    {t.common.total}: {myPosts?.total ?? 0}
+                </div>
             </div>
+        </div>
+        <div className="px-6 pb-4">
+          <div className="inline-flex items-center bg-slate-100 rounded-full p-1">
+            <button
+              onClick={() => setShowAllPosts(false)}
+              className={`px-3 py-1 text-[10px] font-black uppercase rounded-full transition-colors ${
+                !showAllPosts ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500'
+              }`}
+            >
+              {t.profile.active}
+            </button>
+            <button
+              onClick={() => setShowAllPosts(true)}
+              className={`px-3 py-1 text-[10px] font-black uppercase rounded-full transition-colors ${
+                showAllPosts ? 'bg-white text-slate-900 shadow-sm' : 'text-slate-500'
+              }`}
+            >
+              {t.common.all}
+            </button>
+          </div>
         </div>
 
         {myPosts === undefined ? (
           <div className="flex justify-center py-12">
             <Loader2 className="w-6 h-6 animate-spin text-teal-500" />
           </div>
-        ) : myPosts.items.length === 0 ? (
+        ) : visiblePosts.length === 0 ? (
           <div className="flex flex-col items-center justify-center py-12 space-y-6 px-6">
             <div className="text-center space-y-2 max-w-[240px]">
               <h4 className="text-sm font-black text-slate-800">{t.profile.startTrading}</h4>
@@ -371,7 +404,7 @@ const ProfilePage: React.FC = () => {
 
             {/* Post List */}
             <div className="space-y-3">
-              {myPosts.items.map((post) => (
+              {sortedVisiblePosts.map((post) => (
                 <Link
                   key={post._id}
                   href={`/trade/${post._id}`}
@@ -394,8 +427,13 @@ const ProfilePage: React.FC = () => {
                     <div className="flex-1 min-w-0">
                       <div className="flex items-center gap-2 mb-1">
                         {getStatusBadge(post.status)}
+                        {post._id === newestPostId && (
+                          <span className="px-2 py-0.5 text-[10px] font-bold bg-teal-100 text-teal-700 rounded-full">
+                            {t.trade.sortNewest}
+                          </span>
+                        )}
                         {post.requestsCount > 0 && (
-                          <span className="px-2 py-0.5 text-[10px] font-bold bg-pink-100 text-pink-700 rounded-full flex items-center gap-1">
+                          <span className="px-2 py-0.5 text-[10px] font-bold bg-red-100 text-red-700 rounded-full flex items-center gap-1">
                             <MessageSquare className="w-3 h-3" />
                             {post.requestsCount} {t.trade.requests}
                           </span>
