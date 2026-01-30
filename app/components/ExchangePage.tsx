@@ -139,10 +139,26 @@ const ExchangePage: React.FC = () => {
     if (!shareCardRef.current || !sharePost) return;
     setIsCapturing(true);
     try {
-      const canvas = await html2canvas(shareCardRef.current, {
+      const source = shareCardRef.current;
+      const canvas = await html2canvas(source, {
         backgroundColor: '#ffffff',
         scale: 2,
         useCORS: true,
+        onclone: (doc) => {
+          const cloned = doc.querySelector('[data-share-capture="true"]') as HTMLElement | null;
+          if (!cloned) return;
+          const sourceNodes = [source, ...Array.from(source.querySelectorAll('*'))] as HTMLElement[];
+          const clonedNodes = [cloned, ...Array.from(cloned.querySelectorAll('*'))] as HTMLElement[];
+          sourceNodes.forEach((node, index) => {
+            const target = clonedNodes[index];
+            if (!target) return;
+            const computed = window.getComputedStyle(node);
+            target.style.color = computed.color;
+            target.style.backgroundColor = computed.backgroundColor;
+            target.style.borderColor = computed.borderColor;
+            target.style.boxShadow = computed.boxShadow;
+          });
+        },
       });
       const dataUrl = canvas.toDataURL('image/png');
       const link = document.createElement('a');
@@ -723,7 +739,7 @@ const ExchangePage: React.FC = () => {
               </button>
             </div>
             <div className="p-4 space-y-3">
-              <div ref={shareCardRef} className="rounded-xl border border-slate-200 p-3 space-y-3 bg-white">
+              <div ref={shareCardRef} data-share-capture="true" className="rounded-xl border border-slate-200 p-3 space-y-3 bg-white">
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
                     {sharePost.traderAvatar ? (
