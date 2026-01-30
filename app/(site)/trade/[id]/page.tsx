@@ -8,6 +8,7 @@ import { api } from '@/convex/_generated/api';
 import { Id } from '@/convex/_generated/dataModel';
 import { ChevronLeft, Clock, ArrowRightLeft, Loader2, Send, Check, XCircle } from 'lucide-react';
 import { useTraderAuth } from '../../../contexts/TraderAuthContext';
+import { useLocale } from '../../../contexts/LocaleContext';
 
 const formatTimeLeft = (expiresAt: number) => {
   const diff = expiresAt - Date.now();
@@ -18,10 +19,40 @@ const formatTimeLeft = (expiresAt: number) => {
   return `${hours}h ${minutes}m`;
 };
 
+const getTradeRequestErrorMessage = (
+  error: unknown,
+  t: ReturnType<typeof useLocale>['t']
+) => {
+  if (!(error instanceof Error)) return t.trade.requestSendFailed;
+
+  const rawMessage = error.message || '';
+  const normalizedMessage = rawMessage.split('Uncaught Error:')[1]?.trim() || rawMessage;
+
+  if (normalizedMessage.includes('Bạn đã gửi request cho bài đăng này rồi')) {
+    return t.trade.requestAlreadySent;
+  }
+
+  if (normalizedMessage.includes('Bạn không thể gửi request cho bài đăng của chính mình')) {
+    return t.trade.requestSelfPost;
+  }
+
+  if (normalizedMessage.includes('Bài đăng không tồn tại hoặc đã hết hạn')) {
+    return t.trade.requestPostUnavailable;
+  }
+
+  if (normalizedMessage.includes('Bạn đã đạt giới hạn')) {
+    const limit = normalizedMessage.match(/\d+/)?.[0];
+    return limit ? `${t.trade.requestDailyLimit} (${limit})` : t.trade.requestDailyLimit;
+  }
+
+  return t.trade.requestSendFailed;
+};
+
 export default function TradeDetailPage() {
   const params = useParams();
   const router = useRouter();
   const { trader } = useTraderAuth();
+  const { t } = useLocale();
   const postId = params.id as Id<"tradePosts">;
 
   const [selectedHaveCard, setSelectedHaveCard] = useState<string | null>(null);
@@ -73,9 +104,9 @@ export default function TradeDetailPage() {
       setSelectedHaveCard(null);
       setSelectedWantCard(null);
       setMessage('');
-      alert('Đã gửi yêu cầu thành công!');
+      alert(t.trade.requestSendSuccess);
     } catch (error) {
-      alert(error instanceof Error ? error.message : 'Có lỗi xảy ra');
+      alert(getTradeRequestErrorMessage(error, t));
     } finally {
       setIsSubmitting(false);
     }
@@ -90,7 +121,7 @@ export default function TradeDetailPage() {
         router.push(`/chat/${result.chatId}`);
       }
     } catch (error) {
-      alert(error instanceof Error ? error.message : 'Có lỗi xảy ra');
+      alert(error instanceof Error ? error.message : t.common.error);
     }
   };
 

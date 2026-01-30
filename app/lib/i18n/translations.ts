@@ -127,6 +127,12 @@ export const translations = {
       sortByRarity: 'Theo độ hiếm',
       ascending: 'Tăng dần',
       descending: 'Giảm dần',
+      requestAlreadySent: 'Bạn đã gửi yêu cầu cho bài đăng này rồi',
+      requestSelfPost: 'Bạn không thể gửi yêu cầu cho bài đăng của chính mình',
+      requestPostUnavailable: 'Bài đăng không tồn tại hoặc đã hết hạn',
+      requestDailyLimit: 'Bạn đã đạt giới hạn request/ngày',
+      requestSendSuccess: 'Đã gửi yêu cầu thành công',
+      requestSendFailed: 'Không thể gửi yêu cầu, vui lòng thử lại',
     },
     // Library
     library: {
@@ -332,6 +338,12 @@ export const translations = {
       sortByRarity: 'By rarity',
       ascending: 'Ascending',
       descending: 'Descending',
+      requestAlreadySent: 'You already sent a request for this post',
+      requestSelfPost: 'You cannot send a request to your own post',
+      requestPostUnavailable: 'This post is unavailable or expired',
+      requestDailyLimit: 'You reached the daily request limit',
+      requestSendSuccess: 'Request sent successfully',
+      requestSendFailed: 'Unable to send request, please try again',
     },
     // Library
     library: {
