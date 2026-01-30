@@ -9,6 +9,7 @@ import { Id } from '@/convex/_generated/dataModel';
 import { ChevronLeft, Clock, ArrowRightLeft, Loader2, Send, Check, XCircle } from 'lucide-react';
 import { useTraderAuth } from '../../../contexts/TraderAuthContext';
 import { useLocale } from '../../../contexts/LocaleContext';
+import { toast } from 'sonner';
 
 const formatTimeLeft = (expiresAt: number) => {
   const diff = expiresAt - Date.now();
@@ -104,9 +105,9 @@ export default function TradeDetailPage() {
       setSelectedHaveCard(null);
       setSelectedWantCard(null);
       setMessage('');
-      alert(t.trade.requestSendSuccess);
+      toast.success(t.trade.requestSendSuccess);
     } catch (error) {
-      alert(getTradeRequestErrorMessage(error, t));
+      toast.error(getTradeRequestErrorMessage(error, t));
     } finally {
       setIsSubmitting(false);
     }
@@ -121,7 +122,7 @@ export default function TradeDetailPage() {
         router.push(`/chat/${result.chatId}`);
       }
     } catch (error) {
-      alert(error instanceof Error ? error.message : t.common.error);
+      toast.error(error instanceof Error ? error.message : t.common.error);
     }
   };
 

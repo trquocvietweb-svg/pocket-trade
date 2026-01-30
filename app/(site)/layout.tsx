@@ -9,6 +9,7 @@ import { LocaleProvider } from "../contexts/LocaleContext";
 import VisitorTracker from "../components/VisitorTracker";
 import { getSettings } from "../lib/getSettings";
 import { Locale } from "../lib/i18n/translations";
+import { Toaster } from "sonner";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -58,6 +59,7 @@ export default async function SiteLayout({
           <LocaleProvider initialLocale={locale}>
             <TraderAuthProvider>
               <VisitorTracker />
+              <Toaster richColors position="top-right" />
               <NavigationWrapper>{children}</NavigationWrapper>
             </TraderAuthProvider>
           </LocaleProvider>
