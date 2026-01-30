@@ -80,8 +80,8 @@ const ExchangePage: React.FC = () => {
   const [selectedSet, setSelectedSet] = useState('');
   const [searchTerm, setSearchTerm] = useState('');
   const [debouncedSearch, setDebouncedSearch] = useState('');
-  const [sortBy, setSortBy] = useState('EXPIRES');
-  const [sortDir, setSortDir] = useState<'ASC' | 'DESC'>('ASC');
+  const [sortBy, setSortBy] = useState('CREATED');
+  const [sortDir, setSortDir] = useState<'ASC' | 'DESC'>('DESC');
   const [currentPage, setCurrentPage] = useState(1);
   const [expiredIds, setExpiredIds] = useState<Set<string>>(new Set());
 
@@ -282,6 +282,7 @@ const ExchangePage: React.FC = () => {
                 }}
                 className="text-xs bg-slate-100 border-0 rounded-lg py-1.5 pl-2 pr-6 focus:ring-2 focus:ring-teal-500"
               >
+                <option value="CREATED-DESC">{t.trade.sortNewest}</option>
                 <option value="EXPIRES-ASC">{t.trade.sortExpiringSoon}</option>
                 <option value="EXPIRES-DESC">{t.trade.sortMostTime}</option>
               </select>

@@ -230,8 +230,8 @@ export const listPaginated = query({
     }
     
     // ============ Step 7: Sort ============
-    const sortBy = args.sortBy || "EXPIRES";
-    const sortDir = args.sortDir || "ASC";
+    const sortBy = args.sortBy || "CREATED";
+    const sortDir = args.sortDir || "DESC";
     enrichedPosts.sort((a, b) => {
       const cmp = sortBy === "CREATED" 
         ? a._creationTime - b._creationTime 
