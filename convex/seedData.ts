@@ -16,6 +16,7 @@ import A4a_data from "./data/A4a_data.json";
 import A4B_data from "./data/A4B_data_fixed.json";
 import B1_data from "./data/B1_data.json";
 import B1A_data from "./data/B1A_data.json";
+import B2_data from "./data/B2_data.json";
 import PA_data from "./data/P-A_data.json";
 import PB_data from "./data/P-B_data.json";
 
@@ -151,6 +152,14 @@ const SETS: SetDefinition[] = [
     logoUrl: "/images/logos/B1A.webp",
     packs: [{ name: "Crimson Blaze", imageUrl: "/images/packs/B1A.webp" }],
     data: B1A_data,
+  },
+  {
+    setCode: "B2",
+    name: "Fantastical Parade",
+    seriesName: "B Series",
+    logoUrl: "/images/logos/B2.webp",
+    packs: [{ name: "Gardevoir", imageUrl: "/images/packs/gardevoir.webp" }],
+    data: B2_data,
   },
   {
     setCode: "P-A",
@@ -414,7 +423,8 @@ const SET_FOLDERS: Record<string, string> = {
   "A2a": "Triumphant Light", "A2b": "Shining Revelry", "A3": "Celestial Guardians",
   "A3a": "Extradimensional Crisis", "A3b": "Eevee Grove", "A4": "Wisdom of Sea and Sky",
   "A4a": "Secluded Springs", "A4B": "Deluxe Pack ex", "B1": "Mega Rising",
-  "B1A": "Crimson Blaze", "B1a": "Crimson Blaze", "P-A": "Promos-A", "P-B": "Promos-B",
+  "B1A": "Crimson Blaze", "B1a": "Crimson Blaze", "B2": "Fantastical Parade",
+  "P-A": "Promos-A", "P-B": "Promos-B",
 };
 
 function getImageUrl(setCode: string, localId: string, name: string): string {
