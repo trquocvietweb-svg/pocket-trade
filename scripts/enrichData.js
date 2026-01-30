@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Script to enrich local JSON data with full card info from TCGdex API
  * Run: node scripts/enrichData.js

@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports, @typescript-eslint/no-unused-vars */
 /**
  * Script fetch data từ Serebii cho Deluxe Pack ex (A4B)
  * Chạy: node scripts/fetch-a4b-data.js

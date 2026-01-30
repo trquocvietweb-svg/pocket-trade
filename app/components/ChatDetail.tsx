@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useEffect, useRef } from 'react';
@@ -7,7 +8,7 @@ import { useTraderAuth } from '../contexts/TraderAuthContext';
 import { Id } from '@/convex/_generated/dataModel';
 import {
   ChevronLeft, AlertTriangle, Copy, RefreshCcw, Image as ImageIcon,
-  Send, Loader2, Check, X, CheckCheck, XCircle, CheckCircle2, Clock
+  Send, Loader2, X, CheckCheck, XCircle, CheckCircle2, Clock
 } from 'lucide-react';
 import { toast } from 'sonner';
 
@@ -59,7 +60,7 @@ const ChatDetail: React.FC<ChatDetailProps> = ({ chatId, onBack }) => {
     if (trader && chat) {
       markAsRead({ chatId: chatId as Id<"chats">, traderId: trader._id });
     }
-  }, [trader, chat, chatId, messages]);
+  }, [trader, chat, chatId, messages, markAsRead]);
 
   const handleSend = async () => {
     if (!message.trim() || !trader || sending) return;
@@ -167,7 +168,6 @@ const ChatDetail: React.FC<ChatDetailProps> = ({ chatId, onBack }) => {
   const myConfirmed = isHost ? chat.hostConfirmed : chat.guestConfirmed;
   const partnerConfirmed = isHost ? chat.guestConfirmed : chat.hostConfirmed;
   const cancelledByMe = chat.cancelledBy === trader._id;
-  const cancelledByPartner = chat.cancelledBy && chat.cancelledBy !== trader._id;
 
   return (
     <div className="min-h-screen bg-[#f1f5f9] flex flex-col">

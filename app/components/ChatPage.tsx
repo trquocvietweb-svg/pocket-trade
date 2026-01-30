@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React from 'react';
@@ -29,15 +30,12 @@ const ChatPage: React.FC<ChatPageProps> = ({ onChatClick }) => {
 
   // Format time ago
   const timeAgo = (timestamp: number) => {
-    const diff = Date.now() - timestamp;
-    const mins = Math.floor(diff / 60000);
-    const hours = Math.floor(diff / 3600000);
-    const days = Math.floor(diff / 86400000);
-
-    if (mins < 1) return t.common.justNow;
-    if (mins < 60) return `${mins} ${t.common.minutesAgo}`;
-    if (hours < 24) return `${hours} ${t.common.hoursAgo}`;
-    return `${days} ${t.common.daysAgo}`;
+    return new Date(timestamp).toLocaleString('vi-VN', {
+      day: '2-digit',
+      month: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+    });
   };
 
   const chats = useQuery(

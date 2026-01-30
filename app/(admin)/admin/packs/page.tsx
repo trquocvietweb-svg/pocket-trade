@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useMemo } from 'react';
@@ -27,16 +28,17 @@ export default function PacksPage() {
 
   const filteredAndSorted = useMemo(() => {
     if (!packs) return [];
-    let result = packs.filter(p => {
+    const result = packs.filter(p => {
       const matchSearch = p.name.toLowerCase().includes(search.toLowerCase());
       const matchSet = !filterSet || p.setId === filterSet;
       return matchSearch && matchSet;
     });
     result.sort((a, b) => {
-      let aVal: string | number, bVal: string | number;
-      if (sortField === 'name') { aVal = a.name.toLowerCase(); bVal = b.name.toLowerCase(); }
-      else if (sortField === 'setName') { aVal = a.setName.toLowerCase(); bVal = b.setName.toLowerCase(); }
-      else { aVal = a.cardCount; bVal = b.cardCount; }
+      const [aVal, bVal] = (() => {
+        if (sortField === 'name') return [a.name.toLowerCase(), b.name.toLowerCase()];
+        if (sortField === 'setName') return [a.setName.toLowerCase(), b.setName.toLowerCase()];
+        return [a.cardCount, b.cardCount];
+      })();
       if (aVal < bVal) return sortDir === 'asc' ? -1 : 1;
       if (aVal > bVal) return sortDir === 'asc' ? 1 : -1;
       return 0;

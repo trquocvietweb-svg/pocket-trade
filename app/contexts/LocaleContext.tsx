@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import React, { createContext, useContext, useState, ReactNode } from 'react';
 import { translations, Locale } from '../lib/i18n/translations';
 
 type Translations = typeof translations;
@@ -20,19 +20,20 @@ export function LocaleProvider({
   children: ReactNode;
   initialLocale?: Locale;
 }) {
-  const [locale, setLocaleState] = useState<Locale>(initialLocale);
-
-  useEffect(() => {
-    // Đọc locale từ cookie nếu có
+  const [locale, setLocaleState] = useState<Locale>(() => {
+    if (typeof document === 'undefined') {
+      return initialLocale;
+    }
     const savedLocale = document.cookie
       .split('; ')
       .find(row => row.startsWith('locale='))
       ?.split('=')[1] as Locale | undefined;
-    
-    if (savedLocale && (savedLocale === 'vi' || savedLocale === 'en')) {
-      setLocaleState(savedLocale);
+
+    if (savedLocale === 'vi' || savedLocale === 'en') {
+      return savedLocale;
     }
-  }, []);
+    return initialLocale;
+  });
 
   const setLocale = (newLocale: Locale) => {
     setLocaleState(newLocale);

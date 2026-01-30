@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { use, useEffect } from 'react';
@@ -27,44 +28,6 @@ function extractTextFromHTML(html: string, maxLength: number = 200): string {
   return text.length > maxLength ? text.substring(0, maxLength) + '...' : text;
 }
 
-function stripHTMLTags(html: string): string {
-  return html
-    .replace(/<h1[^>]*>/g, '# ')
-    .replace(/<\/h1>/g, '\n\n')
-    .replace(/<h2[^>]*>/g, '## ')
-    .replace(/<\/h2>/g, '\n\n')
-    .replace(/<h3[^>]*>/g, '### ')
-    .replace(/<\/h3>/g, '\n\n')
-    .replace(/<h4[^>]*>/g, '#### ')
-    .replace(/<\/h4>/g, '\n\n')
-    .replace(/<h5[^>]*>/g, '##### ')
-    .replace(/<\/h5>/g, '\n\n')
-    .replace(/<h6[^>]*>/g, '###### ')
-    .replace(/<\/h6>/g, '\n\n')
-    .replace(/<p[^>]*>/g, '')
-    .replace(/<\/p>/g, '\n\n')
-    .replace(/<br\s*\/?>/g, '\n')
-    .replace(/<strong[^>]*>|<b[^>]*>/g, '**')
-    .replace(/<\/strong>|<\/b>/g, '**')
-    .replace(/<em[^>]*>|<i[^>]*>/g, '*')
-    .replace(/<\/em>|<\/i>/g, '*')
-    .replace(/<a[^>]*href="([^"]*)"[^>]*>(.*?)<\/a>/g, '[$2]($1)')
-    .replace(/<img[^>]*src="([^"]*)"[^>]*alt="([^"]*)"[^>]*>/g, '![$2]($1)')
-    .replace(/<img[^>]*src="([^"]*)"[^>]*>/g, '![]($1)')
-    .replace(/<ul[^>]*>/g, '\n')
-    .replace(/<\/ul>/g, '\n')
-    .replace(/<ol[^>]*>/g, '\n')
-    .replace(/<\/ol>/g, '\n')
-    .replace(/<li[^>]*>/g, '- ')
-    .replace(/<\/li>/g, '\n')
-    .replace(/<code[^>]*>/g, '`')
-    .replace(/<\/code>/g, '`')
-    .replace(/<pre[^>]*>/g, '```\n')
-    .replace(/<\/pre>/g, '\n```\n')
-    .replace(/<[^>]*>/g, '')
-    .replace(/\n{3,}/g, '\n\n')
-    .trim();
-}
 
 function updateMetaTags(title: string, description: string, imageUrl?: string) {
   if (typeof document === 'undefined') return;
@@ -127,9 +90,6 @@ export default function PostDetailPage({ params }: { params: Promise<{ slug: str
     if (!post) return;
     
     const url = window.location.href;
-    
-    // Facebook Share Dialog API
-    const shareUrl = `https://www.facebook.com/dialog/share?app_id=YOUR_APP_ID&display=popup&href=${encodeURIComponent(url)}&redirect_uri=${encodeURIComponent(url)}`;
     
     // Fallback: Use sharer.php (simpler, no app_id required)
     const fallbackUrl = `https://www.facebook.com/sharer.php?u=${encodeURIComponent(url)}`;
@@ -200,7 +160,7 @@ export default function PostDetailPage({ params }: { params: Promise<{ slug: str
       {/* Categories */}
       {postCategories && postCategories.length > 0 && (
         <div className="flex flex-wrap gap-2">
-          {postCategories.map((cat: any) => (
+          {postCategories.map((cat) => (
             <Link
               key={cat._id}
               href={`/bai-viet`}

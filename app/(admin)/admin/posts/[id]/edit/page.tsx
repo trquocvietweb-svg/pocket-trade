@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import dynamic from 'next/dynamic';
-import { useParams, useRouter } from 'next/navigation';
+import { useParams } from 'next/navigation';
 import { ArrowLeft, Pencil } from 'lucide-react';
 import { useQuery, useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
@@ -15,7 +15,6 @@ const LexicalEditor = dynamic(() => import('@/app/components/LexicalEditor'), { 
 
 export default function EditPostPage() {
   const params = useParams();
-  const router = useRouter();
   const id = params.id as Id<"posts">;
   const post = useQuery(api.posts.getById, { id });
   const postCategories = useQuery(api.postCategories.getPostCategories, { postId: id });
@@ -52,7 +51,7 @@ export default function EditPostPage() {
 
   useEffect(() => {
     if (postCategories) {
-      setSelectedCategories(new Set(postCategories.map((c: any) => c._id)));
+      setSelectedCategories(new Set(postCategories.map((c) => c._id)));
     }
   }, [postCategories]);
 
@@ -95,7 +94,7 @@ export default function EditPostPage() {
       
       await syncPostCategories({
         postId: id,
-        categoryIds: Array.from(selectedCategories) as any[],
+        categoryIds: Array.from(selectedCategories) as Id<"postCategories">[],
       });
       
       toast.success('Cập nhật bài viết thành công');

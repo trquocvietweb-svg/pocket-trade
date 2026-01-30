@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useMemo } from 'react';
@@ -27,6 +28,13 @@ const formatDate = (timestamp: number) => {
 type SortField = 'status' | 'traderName' | 'requestsCount' | null;
 type SortOrder = 'asc' | 'desc';
 
+function SortIcon({ active, order }: { active: boolean; order: SortOrder }) {
+  if (!active) return <ArrowUpDown size={14} className="text-slate-400" />;
+  return order === 'asc'
+    ? <ArrowUp size={14} className="text-indigo-500" />
+    : <ArrowDown size={14} className="text-indigo-500" />;
+}
+
 export default function TradePostsPage() {
   const tradePosts = useQuery(api.tradePosts.list);
   const removePost = useMutation(api.tradePosts.remove);
@@ -49,17 +57,10 @@ export default function TradePostsPage() {
     }
   };
 
-  const SortIcon = ({ field }: { field: SortField }) => {
-    if (sortField !== field) return <ArrowUpDown size={14} className="text-slate-400" />;
-    return sortOrder === 'asc' 
-      ? <ArrowUp size={14} className="text-indigo-500" /> 
-      : <ArrowDown size={14} className="text-indigo-500" />;
-  };
-
   const sortedPosts = useMemo(() => {
     if (!tradePosts) return null;
     
-    let filtered = tradePosts.filter(post => {
+    const filtered = tradePosts.filter(post => {
       if (searchQuery && !post.traderName.toLowerCase().includes(searchQuery.toLowerCase())) return false;
       if (statusFilter && post.status !== statusFilter) return false;
       return true;
@@ -134,7 +135,7 @@ export default function TradePostsPage() {
                 >
                   <div className="flex items-center gap-1">
                     Trader
-                    <SortIcon field="traderName" />
+                    <SortIcon active={sortField === 'traderName'} order={sortOrder} />
                   </div>
                 </th>
                 <th className="text-left px-4 py-3 text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Có (Have)</th>
@@ -145,7 +146,7 @@ export default function TradePostsPage() {
                 >
                   <div className="flex items-center gap-1">
                     Trạng thái
-                    <SortIcon field="status" />
+                    <SortIcon active={sortField === 'status'} order={sortOrder} />
                   </div>
                 </th>
                 <th 
@@ -154,7 +155,7 @@ export default function TradePostsPage() {
                 >
                   <div className="flex items-center gap-1">
                     Requests
-                    <SortIcon field="requestsCount" />
+                    <SortIcon active={sortField === 'requestsCount'} order={sortOrder} />
                   </div>
                 </th>
                 <th className="text-left px-4 py-3 text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider">Hết hạn</th>

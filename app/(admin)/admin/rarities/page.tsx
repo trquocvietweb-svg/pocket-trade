@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useMemo } from 'react';
@@ -20,7 +21,7 @@ export default function RaritiesPage() {
 
   const filteredAndSorted = useMemo(() => {
     if (!rarities) return [];
-    let result = rarities.filter(r => 
+    const result = rarities.filter(r => 
       r.name.toLowerCase().includes(search.toLowerCase())
     );
     result.sort((a, b) => {

@@ -1,5 +1,6 @@
 'use client';
 
+/* eslint-disable @next/next/no-img-element */
 import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import { useQuery } from 'convex/react';
@@ -150,8 +151,8 @@ const ExchangePage: React.FC = () => {
 
   const rawPosts = tradePostsResult?.items ?? [];
   // Filter out expired posts on client-side for realtime update
-  const posts = activeTab !== 'history' 
-    ? rawPosts.filter(p => p.expiresAt > Date.now() && !expiredIds.has(p._id))
+  const posts = activeTab !== 'history'
+    ? rawPosts.filter(p => !expiredIds.has(p._id))
     : rawPosts;
   const totalPages = tradePostsResult?.totalPages ?? 1;
   const total = tradePostsResult?.total ?? 0;

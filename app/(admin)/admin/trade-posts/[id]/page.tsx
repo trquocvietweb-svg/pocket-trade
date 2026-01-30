@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React from 'react';
@@ -87,7 +88,7 @@ function RequestsSection({ postId, count }: { postId: Id<"tradePosts">; count: n
 
                 {req.message && (
                   <p className="text-xs text-slate-500 dark:text-slate-400 bg-slate-50 dark:bg-slate-800 rounded p-2">
-                    "{req.message}"
+                    &quot;{req.message}&quot;
                   </p>
                 )}
               </div>

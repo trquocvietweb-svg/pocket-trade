@@ -61,7 +61,8 @@ export const login = query({
     if (admin.password !== hashedPassword) return null;
     
     // Return admin without password
-    const { password: _, ...adminWithoutPassword } = admin;
+    const { password, ...adminWithoutPassword } = admin;
+    void password;
     return adminWithoutPassword;
   },
 });

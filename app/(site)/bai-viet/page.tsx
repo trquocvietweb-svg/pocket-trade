@@ -1,11 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { Search, Filter, Calendar, Eye, ChevronDown } from 'lucide-react';
 import { useQuery } from 'convex/react';
 import { api } from '@/convex/_generated/api';
-import { useLocale } from '@/app/contexts/LocaleContext';
 import { Id } from '@/convex/_generated/dataModel';
 
 function formatDate(timestamp: number) {
@@ -19,26 +19,28 @@ function formatDate(timestamp: number) {
 type SortOption = 'newest' | 'oldest' | 'a-z' | 'z-a';
 
 export default function PostsListPage() {
-  const { t } = useLocale();
   const categories = useQuery(api.postCategories.list, {});
   const [search, setSearch] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedCategory, setSelectedCategory] = useState<Id<"postCategories"> | null>(null);
   const [currentCursor, setCurrentCursor] = useState<string | null>(null);
   const [sortBy, setSortBy] = useState<SortOption>('newest');
   const [showSortMenu, setShowSortMenu] = useState(false);
   
   // Fetch posts based on selected category
   const allPublishedPosts = useQuery(api.posts.getPublished, {
-    paginationOpts: { numItems: 100, cursor: null },
+    paginationOpts: { numItems: 100, cursor: currentCursor },
   });
   const categoryFilteredPosts = useQuery(
     api.postCategories.getPostsByCategory,
-    selectedCategory ? { categoryId: selectedCategory as any } : "skip"
+    selectedCategory ? { categoryId: selectedCategory } : "skip"
   );
 
-  const posts = selectedCategory 
-    ? (categoryFilteredPosts || [])
-    : (allPublishedPosts?.page || []);
+  const posts = useMemo(() => {
+    if (selectedCategory) {
+      return categoryFilteredPosts || [];
+    }
+    return allPublishedPosts?.page || [];
+  }, [allPublishedPosts?.page, categoryFilteredPosts, selectedCategory]);
   
   const hasMore = !selectedCategory && !(allPublishedPosts?.isDone ?? true);
   const continueCursor = !selectedCategory ? (allPublishedPosts?.continueCursor ?? null) : null;
@@ -74,7 +76,7 @@ export default function PostsListPage() {
     return sorted;
   }, [posts, search, sortBy]);
 
-  const handleCategoryChange = (categoryId: string | null) => {
+  const handleCategoryChange = (categoryId: Id<"postCategories"> | null) => {
     setSelectedCategory(categoryId);
     setCurrentCursor(null); // Reset pagination when changing category
   };

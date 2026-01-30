@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation';
 import { ArrowLeft } from 'lucide-react';
 import { useMutation, useQuery } from 'convex/react';
 import { api } from '@/convex/_generated/api';
+import { Id } from '@/convex/_generated/dataModel';
 import { toast } from 'sonner';
 import ImageUpload from '@/app/components/ImageUpload';
 
@@ -79,7 +80,7 @@ export default function NewPostPage() {
       if (selectedCategories.size > 0) {
         await syncPostCategories({
           postId,
-          categoryIds: Array.from(selectedCategories) as any[],
+          categoryIds: Array.from(selectedCategories) as Id<"postCategories">[],
         });
       }
       

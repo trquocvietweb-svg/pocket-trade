@@ -1,23 +1,12 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useMemo, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import {
   LayoutDashboard,
-  Users,
-  Settings,
   ChevronLeft,
   ChevronRight,
-  CreditCard,
-  Package,
-  Layers,
-  ArrowLeftRight,
-  Calendar,
-  ShieldCheck,
-  Sparkles,
-  Library,
-  FileText,
   FolderOpen,
 } from 'lucide-react';
 
@@ -39,6 +28,32 @@ const Sidebar: React.FC<SidebarProps> = ({
   const pathname = usePathname();
   const activePath = currentPath || pathname;
   const [expandedMenu, setExpandedMenu] = useState<string | null>(null);
+
+  const autoExpandedMenu = useMemo(() => {
+    if (activePath.startsWith('/admin/posts') || activePath.startsWith('/admin/categories')) {
+      return 'Nội dung';
+    }
+    if (
+      activePath.startsWith('/admin/cards') ||
+      activePath.startsWith('/admin/rarities') ||
+      activePath.startsWith('/admin/packs') ||
+      activePath.startsWith('/admin/sets') ||
+      activePath.startsWith('/admin/series')
+    ) {
+      return 'Quản lý thẻ';
+    }
+    if (activePath.startsWith('/admin/traders') || activePath.startsWith('/admin/trade-posts')) {
+      return 'Giao dịch';
+    }
+    if (
+      activePath.startsWith('/admin/events') ||
+      activePath.startsWith('/admin/admins') ||
+      activePath.startsWith('/admin/settings')
+    ) {
+      return 'Hệ thống';
+    }
+    return null;
+  }, [activePath]);
 
   const menuItems = [
     { id: 'dashboard', icon: LayoutDashboard, label: 'Tổng Quan', href: '/admin' },
@@ -68,21 +83,7 @@ const Sidebar: React.FC<SidebarProps> = ({
     { id: 'settings', label: 'Cài Đặt', href: '/admin/settings' },
   ];
 
-  useEffect(() => {
-    // Auto expand menu based on current path
-    if (activePath.startsWith('/admin/posts') || activePath.startsWith('/admin/categories')) {
-      setExpandedMenu('Nội dung');
-    } else if (activePath.startsWith('/admin/cards') || activePath.startsWith('/admin/rarities') || 
-               activePath.startsWith('/admin/packs') || activePath.startsWith('/admin/sets') || 
-               activePath.startsWith('/admin/series')) {
-      setExpandedMenu('Quản lý thẻ');
-    } else if (activePath.startsWith('/admin/traders') || activePath.startsWith('/admin/trade-posts')) {
-      setExpandedMenu('Giao dịch');
-    } else if (activePath.startsWith('/admin/events') || activePath.startsWith('/admin/admins') || 
-               activePath.startsWith('/admin/settings')) {
-      setExpandedMenu('Hệ thống');
-    }
-  }, [activePath]);
+  const activeExpandedMenu = expandedMenu ?? autoExpandedMenu;
 
   const normalizePath = (path?: string | null) =>
     (path || '').replace(/\/+$/, '') || '/';
@@ -131,6 +132,7 @@ const Sidebar: React.FC<SidebarProps> = ({
           href={item.href}
           className={commonClasses}
           title={collapsed ? item.label : undefined}
+          onClick={() => setExpandedMenu(null)}
         >
           <item.icon size={20} className={iconClass} />
           {!collapsed && <span>{item.label}</span>}
@@ -162,6 +164,7 @@ const Sidebar: React.FC<SidebarProps> = ({
             ? 'text-blue-600 bg-blue-500/5 font-medium dark:text-blue-400'
             : 'text-slate-500 dark:text-slate-500 hover:text-slate-900 dark:hover:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-800'
         }`}
+        onClick={() => setExpandedMenu(null)}
       >
         {item.label}
       </Link>
@@ -169,7 +172,7 @@ const Sidebar: React.FC<SidebarProps> = ({
   };
 
   const renderGroup = (label: string, items: { id: string; label: string; href: string }[]) => {
-    const isExpanded = expandedMenu === label;
+    const isExpanded = activeExpandedMenu === label;
     const hasActiveItem = items.some(item => isActive(item.id, item.href));
 
     return (

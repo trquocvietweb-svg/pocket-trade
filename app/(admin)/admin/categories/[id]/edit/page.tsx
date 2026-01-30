@@ -1,9 +1,9 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { useParams, useRouter } from 'next/navigation';
-import { ArrowLeft, Search, X, Plus } from 'lucide-react';
+import { useParams } from 'next/navigation';
+import { ArrowLeft, X } from 'lucide-react';
 import { useQuery, useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
 import { Id } from '@/convex/_generated/dataModel';
@@ -11,7 +11,6 @@ import { toast } from 'sonner';
 
 export default function EditCategoryPage() {
   const params = useParams();
-  const router = useRouter();
   const id = params.id as Id<"postCategories">;
   const category = useQuery(api.postCategories.getById, { id });
   const categoryPosts = useQuery(api.postCategories.getPostsInCategory, { categoryId: id });

@@ -1,7 +1,7 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState } from 'react';
-import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ChevronLeft, Clock, Loader2, ArrowRightLeft } from 'lucide-react';
@@ -33,7 +33,6 @@ const formatTimeAgo = (timestamp: number) => {
 };
 
 const CardDetail: React.FC<CardDetailProps> = ({ cardId, onBack }) => {
-  const router = useRouter();
   const [activeTab, setActiveTab] = useState<'seeking' | 'offering'>('seeking');
 
   const card = useQuery(api.cards.getByIdEnriched, { id: cardId });
@@ -222,7 +221,7 @@ const CardDetail: React.FC<CardDetailProps> = ({ cardId, onBack }) => {
 
                 {/* Note */}
                 {post.note && (
-                  <p className="mt-2 text-[10px] text-slate-400 italic truncate">"{post.note}"</p>
+                  <p className="mt-2 text-[10px] text-slate-400 italic truncate">&quot;{post.note}&quot;</p>
                 )}
               </Link>
             );

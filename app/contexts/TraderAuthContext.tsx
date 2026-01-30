@@ -1,6 +1,6 @@
 'use client';
 
-import { createContext, useContext, useState, useEffect, useRef, useCallback, ReactNode } from 'react';
+import { createContext, useContext, useState, useEffect, useRef, ReactNode } from 'react';
 import { useMutation, useConvex } from 'convex/react';
 import { api } from '../../convex/_generated/api';
 import { Id } from '../../convex/_generated/dataModel';
@@ -106,24 +106,24 @@ export function TraderAuthProvider({ children }: { children: ReactNode }) {
     };
   }, [trader?._id, updateLastSeen]);
 
-  const setTrader = useCallback((newTrader: Trader | null) => {
+  const setTrader = (newTrader: Trader | null) => {
     setTraderState(newTrader);
     if (newTrader) {
       localStorage.setItem('trader', JSON.stringify(newTrader));
     } else {
       localStorage.removeItem('trader');
     }
-  }, []);
+  };
 
-  const logout = useCallback(() => {
+  const logout = () => {
     // Set offline before logout
     if (trader?._id) {
       setOffline({ id: trader._id }).catch(() => {});
     }
     setTrader(null);
-  }, [trader?._id, setOffline, setTrader]);
+  };
 
-  const refreshTrader = useCallback(async () => {
+  const refreshTrader = async () => {
     if (!trader?._id) return;
     try {
       const updated = await convex.query(api.traders.getById, { id: trader._id });
@@ -133,7 +133,7 @@ export function TraderAuthProvider({ children }: { children: ReactNode }) {
     } catch {
       // Ignore errors
     }
-  }, [trader?._id, convex, setTrader]);
+  };
 
   return (
     <TraderAuthContext.Provider value={{ trader, setTrader, logout, isLoading, refreshTrader }}>

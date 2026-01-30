@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useMemo } from 'react';
@@ -29,7 +30,7 @@ export default function SetsPage() {
 
   const filteredAndSorted = useMemo(() => {
     if (!sets) return [];
-    let result = sets.filter(s => {
+    const result = sets.filter(s => {
       const matchSearch = s.name.toLowerCase().includes(search.toLowerCase()) || 
                           s.setCode.toLowerCase().includes(search.toLowerCase());
       const matchSeries = !filterSeries || s.seriesId === filterSeries;
@@ -40,11 +41,12 @@ export default function SetsPage() {
       return sortDir === 'asc' ? result : [...result].reverse();
     }
     result.sort((a, b) => {
-      let aVal: string | number, bVal: string | number;
-      if (sortField === 'name') { aVal = a.name.toLowerCase(); bVal = b.name.toLowerCase(); }
-      else if (sortField === 'setCode') { aVal = a.setCode.toLowerCase(); bVal = b.setCode.toLowerCase(); }
-      else if (sortField === 'packCount') { aVal = a.packCount; bVal = b.packCount; }
-      else { aVal = a.cardCount; bVal = b.cardCount; }
+      const [aVal, bVal] = (() => {
+        if (sortField === 'name') return [a.name.toLowerCase(), b.name.toLowerCase()];
+        if (sortField === 'setCode') return [a.setCode.toLowerCase(), b.setCode.toLowerCase()];
+        if (sortField === 'packCount') return [a.packCount, b.packCount];
+        return [a.cardCount, b.cardCount];
+      })();
       if (aVal < bVal) return sortDir === 'asc' ? -1 : 1;
       if (aVal > bVal) return sortDir === 'asc' ? 1 : -1;
       return 0;

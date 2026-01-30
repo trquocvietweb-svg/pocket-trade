@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useEffect, useMemo } from 'react';
@@ -102,7 +103,6 @@ const CreateTradePage: React.FC<CreateTradePageProps> = ({ onBack, onSuccess }) 
   }, [cardsResult?.rarities]);
 
   const totalPages = cardsResult?.totalPages ?? 1;
-  const total = cardsResult?.total ?? 0;
   
   // Filter cards - exclude Crown and only show same rarity if already selected
   const cards = useMemo(() => {

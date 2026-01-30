@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState } from 'react';
@@ -263,7 +264,7 @@ export default function TradeDetailPage() {
                     </div>
 
                     {req.message && (
-                      <p className="text-[10px] text-slate-600 mb-2 italic truncate">"{req.message}"</p>
+                      <p className="text-[10px] text-slate-600 mb-2 italic truncate">&quot;{req.message}&quot;</p>
                     )}
 
                     <div className="flex gap-1.5">

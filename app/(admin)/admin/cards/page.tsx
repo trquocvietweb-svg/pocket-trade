@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import React, { useState, useMemo } from 'react';
@@ -49,7 +50,7 @@ export default function CardsPage() {
 
   const filteredAndSorted = useMemo(() => {
     if (!cards) return [];
-    let result = cards.filter(c => {
+    const result = cards.filter(c => {
       const matchSearch = c.name.toLowerCase().includes(search.toLowerCase()) ||
                           c.cardNumber.toLowerCase().includes(search.toLowerCase());
       const matchSupertype = !filterSupertype || c.supertype === filterSupertype;
@@ -58,8 +59,8 @@ export default function CardsPage() {
       return matchSearch && matchSupertype && matchType && matchSet;
     });
     result.sort((a, b) => {
-      let aVal = a[sortField]?.toLowerCase() || '';
-      let bVal = b[sortField]?.toLowerCase() || '';
+      const aVal = a[sortField]?.toLowerCase() || '';
+      const bVal = b[sortField]?.toLowerCase() || '';
       if (aVal < bVal) return sortDir === 'asc' ? -1 : 1;
       if (aVal > bVal) return sortDir === 'asc' ? 1 : -1;
       return 0;

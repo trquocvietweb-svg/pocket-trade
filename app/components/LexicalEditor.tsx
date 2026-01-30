@@ -18,7 +18,6 @@ import {
   $getRoot,
   $createParagraphNode,
   $createTextNode,
-  EditorState,
   FORMAT_TEXT_COMMAND,
   FORMAT_ELEMENT_COMMAND,
   UNDO_COMMAND,
@@ -60,7 +59,6 @@ import {
   Loader2,
   FileCode,
 } from 'lucide-react';
-import { cn } from '@/lib/utils';
 import ImagesPlugin, { ImageNode, INSERT_IMAGE_COMMAND } from './nodes/ImageNode';
 import { useMutation } from 'convex/react';
 import { api } from '@/convex/_generated/api';
@@ -595,6 +593,7 @@ interface LexicalEditorProps {
 }
 
 export default function LexicalEditor({ value, onChange, placeholder = 'Nhập nội dung...', postId }: LexicalEditorProps) {
+  void postId;
   const uploadImage = useMutation(api.files.generateUploadUrl);
   
   const handleImageUpload = useCallback(async (file: File): Promise<string | null> => {

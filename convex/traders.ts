@@ -56,7 +56,8 @@ export const getById = query({
   handler: async (ctx, args) => {
     const trader = await ctx.db.get(args.id);
     if (!trader) return null;
-    const { password: _, ...traderWithoutPassword } = trader;
+    const { password, ...traderWithoutPassword } = trader;
+    void password;
     return traderWithoutPassword;
   },
 });
@@ -114,7 +115,8 @@ export const register = mutation({
     const trader = await ctx.db.get(traderId);
     if (!trader) throw new Error("Lỗi tạo tài khoản");
     
-    const { password: _, ...traderWithoutPassword } = trader;
+    const { password, ...traderWithoutPassword } = trader;
+    void password;
     return traderWithoutPassword;
   },
 });
@@ -135,7 +137,8 @@ export const login = query({
     const hashedPassword = simpleHash(args.password);
     if (trader.password !== hashedPassword) return null;
     
-    const { password: _, ...traderWithoutPassword } = trader;
+    const { password, ...traderWithoutPassword } = trader;
+    void password;
     return traderWithoutPassword;
   },
 });
@@ -195,13 +198,14 @@ export const updateProfile = mutation({
 
     const { id, ...updates } = args;
     const filteredUpdates = Object.fromEntries(
-      Object.entries(updates).filter(([_, v]) => v !== undefined)
+      Object.entries(updates).filter(([, value]) => value !== undefined)
     );
     await ctx.db.patch(id, filteredUpdates);
     
     const updated = await ctx.db.get(id);
     if (!updated) throw new Error("Lỗi cập nhật");
-    const { password: _, ...traderWithoutPassword } = updated;
+    const { password, ...traderWithoutPassword } = updated;
+    void password;
     return traderWithoutPassword;
   },
 });

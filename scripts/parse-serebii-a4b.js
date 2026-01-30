@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-require-imports */
 /**
  * Parse Deluxe Pack ex (A4B) data từ Serebii HTML artifact
  * Chạy: node scripts/parse-serebii-a4b.js

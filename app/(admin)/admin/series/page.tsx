@@ -22,7 +22,7 @@ export default function SeriesPage() {
 
   const filteredAndSorted = useMemo(() => {
     if (!seriesList) return [];
-    let result = seriesList.filter(s => 
+    const result = seriesList.filter(s => 
       s.name.toLowerCase().includes(search.toLowerCase())
     );
     result.sort((a, b) => {
