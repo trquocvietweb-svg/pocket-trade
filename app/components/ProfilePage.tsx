@@ -33,6 +33,11 @@ const ProfilePage: React.FC = () => {
     trader ? { limit: 50, traderId: trader._id } : 'skip'
   );
 
+  const outgoingRequests = useQuery(
+    api.tradeRequests.listOutgoingByTrader,
+    trader ? { traderId: trader._id } : 'skip'
+  );
+
   const getRankInfo = (points: number) => {
     if (points >= 100) return { name: t.profile.rankDiamond, color: 'text-cyan-400', bg: 'bg-cyan-500/20' };
     if (points >= 50) return { name: t.profile.rankGold, color: 'text-yellow-400', bg: 'bg-yellow-500/20' };
@@ -161,6 +166,7 @@ const ProfilePage: React.FC = () => {
   const sortedVisiblePosts = [...visiblePosts].sort((a, b) => b._creationTime - a._creationTime);
   const newestPostId = sortedVisiblePosts[0]?._id;
   const pendingRequestsTotal = activePosts.reduce((sum, post) => sum + (post.requestsCount ?? 0), 0);
+  const pendingOutgoingRequests = (outgoingRequests || []).filter(req => req.status === 'pending');
 
   return (
     <div className="min-h-screen bg-[#0a1128] pb-20">
@@ -386,6 +392,73 @@ const ProfilePage: React.FC = () => {
           </div>
         ) : (
           <div className="px-4 pb-8 space-y-6">
+            {/* Outgoing Requests */}
+            <div className="space-y-3">
+              <div className="flex items-center justify-between px-2">
+                <h4 className="text-xs font-black uppercase text-slate-400">{t.trade.sent} • {t.trade.pending}</h4>
+                <span className="text-[10px] font-black text-slate-400">{pendingOutgoingRequests.length}</span>
+              </div>
+
+              {outgoingRequests === undefined ? (
+                <div className="flex justify-center py-4">
+                  <Loader2 className="w-5 h-5 animate-spin text-teal-500" />
+                </div>
+              ) : pendingOutgoingRequests.length === 0 ? (
+                <div className="bg-slate-50 rounded-xl p-4 text-center text-xs text-slate-400 font-bold">
+                  {t.trade.noRequestsSent}
+                </div>
+              ) : (
+                pendingOutgoingRequests.map((req) => (
+                  <div
+                    key={req._id}
+                    onClick={() => router.push(`/trade/${req.tradePostId}`)}
+                    className="bg-white rounded-xl p-3 active:bg-slate-50 transition-colors cursor-pointer border border-slate-100"
+                  >
+                    <div className="flex items-center justify-between mb-2">
+                      <div className="flex items-center gap-2">
+                        {req.postOwnerAvatar ? (
+                          <img src={req.postOwnerAvatar} alt="" className="w-8 h-8 rounded-full border border-slate-200 object-cover" />
+                        ) : (
+                          <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-xs font-bold text-slate-500">
+                            {req.postOwnerName.charAt(0).toUpperCase()}
+                          </div>
+                        )}
+                        <span className="text-sm font-bold text-slate-900">{req.postOwnerName}</span>
+                      </div>
+                      <span className="px-2 py-0.5 rounded-full text-[10px] font-bold bg-yellow-100 text-yellow-600">
+                        {t.trade.pending}
+                      </span>
+                    </div>
+
+                    <div className="flex items-center gap-3">
+                      {req.offeredCard && (
+                        <div className="flex items-center gap-2">
+                          <img src={req.offeredCard.imageUrl} alt="" className="w-10 h-14 object-cover rounded border border-orange-200" />
+                          <span className="text-[10px] text-orange-600 font-bold">{t.trade.youSend}</span>
+                        </div>
+                      )}
+                      <div className="w-px h-10 bg-slate-200" />
+                      {req.requestedCard && (
+                        <div className="flex items-center gap-2">
+                          <span className="text-[10px] text-teal-600 font-bold">{t.trade.youReceive}</span>
+                          <img src={req.requestedCard.imageUrl} alt="" className="w-10 h-14 object-cover rounded border border-teal-200" />
+                        </div>
+                      )}
+                    </div>
+
+                    {req.message && (
+                      <p className="mt-2 text-xs text-slate-400 truncate">&ldquo;{req.message}&rdquo;</p>
+                    )}
+
+                    <div className="flex items-center gap-2 mt-2 text-[10px] text-slate-400">
+                      <Clock className="w-3 h-3" />
+                      {formatTimeAgo(req._creationTime)}
+                    </div>
+                  </div>
+                ))
+              )}
+            </div>
+
             {/* Stats */}
             <div className="grid grid-cols-3 gap-3">
               <div className="bg-green-50 rounded-xl p-3 text-center">
