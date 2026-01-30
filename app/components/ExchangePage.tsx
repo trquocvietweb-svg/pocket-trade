@@ -1,14 +1,15 @@
 'use client';
 
 /* eslint-disable @next/next/no-img-element */
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { useRouter } from 'next/navigation';
 import { useQuery } from 'convex/react';
 import { api } from '@/convex/_generated/api';
-import { Plus, Clock, ArrowRightLeft, Loader2, Filter, ChevronDown, ChevronLeft, ChevronRight, Search, X, MessageCircle, Check, XCircle, User } from 'lucide-react';
+import { Plus, Clock, ArrowRightLeft, Loader2, Filter, ChevronDown, ChevronLeft, ChevronRight, Search, X, MessageCircle, Check, XCircle, User, Share2 } from 'lucide-react';
 import { useTraderAuth } from '../contexts/TraderAuthContext';
 import { useLocale } from '../contexts/LocaleContext';
 import EventBanner from './EventBanner';
+import html2canvas from 'html2canvas';
 
 type TabType = 'public-offers' | 'my-offers' | 'my-requests' | 'history';
 
@@ -127,6 +128,31 @@ const ExchangePage: React.FC = () => {
     api.tradePosts.listPaginated,
     queryArgs || 'skip'
   );
+
+  type TradePostItem = NonNullable<typeof tradePostsResult>['items'][number];
+
+  const [sharePost, setSharePost] = useState<TradePostItem | null>(null);
+  const [isCapturing, setIsCapturing] = useState(false);
+  const shareCardRef = useRef<HTMLDivElement | null>(null);
+
+  const handleDownloadShare = async () => {
+    if (!shareCardRef.current || !sharePost) return;
+    setIsCapturing(true);
+    try {
+      const canvas = await html2canvas(shareCardRef.current, {
+        backgroundColor: '#ffffff',
+        scale: 2,
+        useCORS: true,
+      });
+      const dataUrl = canvas.toDataURL('image/png');
+      const link = document.createElement('a');
+      link.href = dataUrl;
+      link.download = `trade-${sharePost._id}.png`;
+      link.click();
+    } finally {
+      setIsCapturing(false);
+    }
+  };
 
   const settings = useQuery(api.settings.get);
   const todayPostsCount = useQuery(
@@ -503,6 +529,16 @@ const ExchangePage: React.FC = () => {
                   </div>
                 </div>
                 <div className="flex items-center gap-2">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setSharePost(post);
+                    }}
+                    className="flex items-center gap-1 px-2 py-1 rounded-full bg-slate-100 text-slate-600 text-[10px] font-bold hover:bg-slate-200"
+                  >
+                    <Share2 className="w-3 h-3" />
+                    {t.common.share}
+                  </button>
                   {/* Request count badge - only for my-offers tab */}
                   {activeTab === 'my-offers' && post.requestsCount > 0 && (
                     <div className="flex items-center gap-1 bg-pink-50 text-pink-600 px-2 py-0.5 rounded-full">
@@ -665,6 +701,119 @@ const ExchangePage: React.FC = () => {
               </button>
             </div>
           )}
+        </div>
+      )}
+
+      {sharePost && (
+        <div
+          className="fixed inset-0 z-50 bg-black/50 flex items-center justify-center p-3"
+          onClick={() => setSharePost(null)}
+        >
+          <div
+            className="bg-white rounded-xl w-full max-w-lg max-h-[90vh] overflow-auto"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between px-4 py-3 border-b">
+              <h2 className="text-sm font-bold text-slate-800">{t.common.share}</h2>
+              <button
+                onClick={() => setSharePost(null)}
+                className="text-xs font-bold text-slate-500 hover:text-slate-700"
+              >
+                {t.common.close}
+              </button>
+            </div>
+            <div className="p-4 space-y-3">
+              <div ref={shareCardRef} className="rounded-xl border border-slate-200 p-3 space-y-3 bg-white">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2">
+                    {sharePost.traderAvatar ? (
+                      <img
+                        src={sharePost.traderAvatar}
+                        alt={sharePost.traderName}
+                        className="w-9 h-9 rounded-full border border-slate-200 object-cover"
+                        crossOrigin="anonymous"
+                      />
+                    ) : (
+                      <div className="w-9 h-9 rounded-full bg-slate-200 flex items-center justify-center text-xs font-bold text-slate-500">
+                        {sharePost.traderName.charAt(0).toUpperCase()}
+                      </div>
+                    )}
+                    <div className="flex flex-col">
+                      <span className="text-sm font-bold text-slate-900">{sharePost.traderName}</span>
+                      {(() => {
+                        const rank = getRank(sharePost.traderTradePoint ?? 0);
+                        return (
+                          <div className="flex items-center gap-1">
+                            <span className={`text-[9px] font-bold ${rank.color}`}>{rank.icon} {rank.name}</span>
+                            <span className="text-[9px] text-slate-400">({sharePost.traderTradePoint ?? 0})</span>
+                          </div>
+                        );
+                      })()}
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-1 text-slate-400">
+                    <Clock className="w-3.5 h-3.5" />
+                    <span className="text-xs font-medium">
+                      {sharePost.status === 'matched' ? (
+                        t.trade.completed
+                      ) : (
+                        <CountdownTimer expiresAt={sharePost.expiresAt} />
+                      )}
+                    </span>
+                  </div>
+                </div>
+
+                <div>
+                  <div className="text-[10px] text-teal-700 font-bold mb-2">
+                    {t.trade.have} ({sharePost.haveCardsCount})
+                  </div>
+                  <div className="grid grid-cols-5 gap-1.5">
+                    {sharePost.haveCards.map((card) => (
+                      <img
+                        key={card._id}
+                        src={card.imageUrl}
+                        alt={card.name}
+                        className="w-full aspect-[3/4] object-cover rounded border border-teal-200"
+                        crossOrigin="anonymous"
+                      />
+                    ))}
+                  </div>
+                </div>
+
+                <div className="flex items-center justify-center text-slate-300">
+                  <ArrowRightLeft className="w-4 h-4" />
+                </div>
+
+                <div>
+                  <div className="text-[10px] text-blue-700 font-bold mb-2">
+                    {t.trade.want} ({sharePost.wantCardsCount})
+                  </div>
+                  <div className="grid grid-cols-5 gap-1.5">
+                    {sharePost.wantCards.map((card) => (
+                      <img
+                        key={card._id}
+                        src={card.imageUrl}
+                        alt={card.name}
+                        className="w-full aspect-[3/4] object-cover rounded border border-blue-200"
+                        crossOrigin="anonymous"
+                      />
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <button
+                onClick={handleDownloadShare}
+                disabled={isCapturing}
+                className={`w-full h-10 rounded-lg text-sm font-bold flex items-center justify-center gap-2 transition-colors ${
+                  isCapturing ? 'bg-slate-100 text-slate-400' : 'bg-teal-600 text-white active:bg-teal-700'
+                }`}
+              >
+                <Share2 className="w-4 h-4" />
+                {isCapturing ? t.common.generatingImage : t.common.downloadImage}
+              </button>
+            </div>
+          </div>
         </div>
       )}
 
