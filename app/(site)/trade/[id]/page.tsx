@@ -87,7 +87,11 @@ export default function TradeDetailPage() {
 
   const isOwner = trader && tradePost.trader?._id === trader._id;
   const isExpired = tradePost.expiresAt < Date.now();
-  const canSendRequest = trader && !isOwner && tradePost.status === 'active' && !isExpired;
+  const ownRequests = trader
+    ? (requests ?? []).filter(r => r.requesterId === trader._id)
+    : [];
+  const ownRequest = ownRequests.sort((a, b) => b._creationTime - a._creationTime)[0];
+  const canSendRequest = trader && !isOwner && tradePost.status === 'active' && !isExpired && !ownRequest;
   const canSubmit = selectedHaveCard && selectedWantCard;
 
   const handleSendRequest = async () => {
@@ -246,6 +250,64 @@ export default function TradeDetailPage() {
             })}
           </div>
         </div>
+
+        {!isOwner && ownRequest && (
+          <div className="bg-white rounded-xl p-3">
+            <h2 className="text-xs font-bold text-slate-800 uppercase mb-2">
+              Yêu cầu của bạn
+            </h2>
+            <div className={`border rounded-lg p-2 ${
+              ownRequest.status === 'accepted' ? 'border-green-200 bg-green-50' :
+              ownRequest.status === 'declined' ? 'border-slate-200 bg-slate-50' :
+              'border-amber-200 bg-amber-50'
+            }`}>
+              <div className="flex items-center justify-between mb-2">
+                <p className="text-xs font-bold text-slate-900">Trạng thái</p>
+                <p className={`text-[10px] font-medium ${
+                  ownRequest.status === 'accepted' ? 'text-green-600' :
+                  ownRequest.status === 'declined' ? 'text-slate-500' :
+                  'text-amber-600'
+                }`}>
+                  {ownRequest.status === 'accepted'
+                    ? 'Đã chấp nhận'
+                    : ownRequest.status === 'declined'
+                      ? 'Đã từ chối'
+                      : 'Đang chờ'}
+                </p>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <div className="flex-1 text-center">
+                  <p className="text-[9px] text-slate-500 mb-0.5">Muốn nhận</p>
+                  {ownRequest.requestedCard && (
+                    <img
+                      src={ownRequest.requestedCard.imageUrl}
+                      alt=""
+                      className="w-12 h-16 object-cover rounded mx-auto border border-teal-200"
+                    />
+                  )}
+                </div>
+                <ArrowRightLeft className="w-3 h-3 text-slate-300 flex-shrink-0" />
+                <div className="flex-1 text-center">
+                  <p className="text-[9px] text-slate-500 mb-0.5">Sẽ đưa</p>
+                  {ownRequest.offeredCard && (
+                    <img
+                      src={ownRequest.offeredCard.imageUrl}
+                      alt=""
+                      className="w-12 h-16 object-cover rounded mx-auto border border-blue-200"
+                    />
+                  )}
+                </div>
+              </div>
+
+              {ownRequest.message && (
+                <p className="text-[10px] text-slate-600 mt-2 italic truncate">
+                  &quot;{ownRequest.message}&quot;
+                </p>
+              )}
+            </div>
+          </div>
+        )}
 
         {/* Requests Section - Only for owner */}
         {isOwner && (
